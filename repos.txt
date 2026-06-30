@@ -1,0 +1,11 @@
+SnowFold GFP Design 2026 — 仓库链接
+======================================
+
+1. 竞赛核心仓库（标准化 pipeline + 最终结果）
+   https://github.com/ZHIPUU/SnowFold-GFP-2026
+
+2. 完整实验记录（R1-R27 全部脚本、中间文件、数据、文档）
+   https://github.com/ZHIPUU/SnowFold-GFP-2026-Full
+
+3. gssh CLI（自主开发的远程 GPU 服务器管理工具）
+   https://github.com/ZHIPUU/gssh

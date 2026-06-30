@@ -6,6 +6,27 @@
 
 本仓库包含 2026 合成生物 GFP 设计竞赛的**完整实验记录**，涵盖从 R2 到 R27 的全部脚本、中间文件、MPNN 输出、分析工具和文档。
 
+## 实验数据全景数据库与可视化平台
+
+本项目构建了一套完整的实验数据管理系统，将 27 轮迭代的全部数据整合为 SQLite 数据库 + 交互式网站。
+
+### 数据库规模
+
+| 表 | 记录数 | 内容 |
+|:---|------:|:-----|
+| sequences | 243,386 | 去重序列（SHA-256 主键） |
+| metrics | 1,474,887 | 全部预测指标 |
+| rounds | 27 | 轮次元数据 |
+| artifacts | 5,539 | 文件证据索引 |
+| lineage_edges | 16,000+ | 序列谱系关系 |
+| documents | 157 | 实验文档全文 |
+
+### 可视化平台
+
+- **技术栈**: FastAPI + React + Cytoscape.js + Plotly + R/ggplot2 + Docker
+- **功能**: Dashboard / Sequence Vault / Topology Network / Docs Browser / R 图表报告
+- **位置**: `protein-design-atlas/`
+
 ## 关联仓库
 
 本项目由三个仓库组成：
