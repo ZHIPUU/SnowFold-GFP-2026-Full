@@ -33,9 +33,10 @@
 
 | 仓库 | 说明 | 链接 |
 |:-----|:-----|:-----|
-| **竞赛核心仓库** | 标准化 pipeline 脚本 + 最终结果，便于评审快速复现 | [SnowFold-GFP-2026](https://github.com/ZHIPUU/SnowFold-GFP-2026) |
-| **完整实验记录** (本仓库) | 全部 27 轮实验脚本、中间文件、数据、文档 | [SnowFold-GFP-2026-Full](https://github.com/ZHIPUU/SnowFold-GFP-2026-Full) |
-| **gssh CLI** | 自主开发的远程 GPU 服务器管理工具 | [gssh](https://github.com/ZHIPUU/gssh) |
+| **竞赛核心仓库** | 标准化 pipeline 脚本 + 最终结果 | [SnowFold-GFP-2026](https://github.com/ZHIPUU/SnowFold-GFP-2026) |
+| **完整实验记录** (本仓库) | R2-R27 全部脚本/数据/文档 | [SnowFold-GFP-2026-Full](https://github.com/ZHIPUU/SnowFold-GFP-2026-Full) |
+| **gssh CLI** | 远程 GPU 服务器管理工具 | [gssh](https://github.com/ZHIPUU/gssh) |
+| **Protein Design Atlas** | 数据库 + 交互式可视化平台 ([在线访问](http://120.48.98.164:18082)) | [protein-design-atlas](https://github.com/ZHIPUU/protein-design-atlas) |
 
 > 由于本项目跨越 27 轮迭代实验，原始工作目录中包含数百个脚本文件（含早期 ML 预测、多版本调试、中间筛选步骤、MPNN FASTA 输出、PDB 结构等），即使按轮次分类后每轮的相关文件仍然繁多且结构不一。因此我们另建了竞赛核心仓库，仅保留标准化后的核心 pipeline 脚本和最终结果。本仓库为完整原始记录。
 

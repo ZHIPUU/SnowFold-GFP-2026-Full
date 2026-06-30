@@ -1,0 +1,6 @@
+# Atlas standalone .gitignore
+*.db
+*.exe
+node_modules/
+__pycache__/
+*.pyc
