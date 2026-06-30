@@ -1,0 +1,22 @@
+{
+  "avGFP": {
+    "cv_r2_mean": 0.40237940489377494,
+    "vocab_size": 1750,
+    "n_train": 46707
+  },
+  "amacGFP": {
+    "cv_r2_mean": 0.5158118872452216,
+    "vocab_size": 1600,
+    "n_train": 33338
+  },
+  "cgreGFP": {
+    "cv_r2_mean": 0.26771194544209703,
+    "vocab_size": 1621,
+    "n_train": 23785
+  },
+  "ppluGFP": {
+    "cv_r2_mean": 0.6302401127631684,
+    "vocab_size": 1450,
+    "n_train": 31250
+  }
+}

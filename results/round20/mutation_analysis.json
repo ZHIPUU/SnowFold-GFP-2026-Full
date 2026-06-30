@@ -1,0 +1,1984 @@
+{
+  "r20_top1_mutations": [
+    {
+      "pos": 2,
+      "ref": "A",
+      "to": "T"
+    },
+    {
+      "pos": 3,
+      "ref": "S",
+      "to": "I"
+    },
+    {
+      "pos": 4,
+      "ref": "K",
+      "to": "P"
+    },
+    {
+      "pos": 9,
+      "ref": "F",
+      "to": "L"
+    },
+    {
+      "pos": 10,
+      "ref": "T",
+      "to": "K"
+    },
+    {
+      "pos": 15,
+      "ref": "I",
+      "to": "V"
+    },
+    {
+      "pos": 16,
+      "ref": "L",
+      "to": "K"
+    },
+    {
+      "pos": 18,
+      "ref": "E",
+      "to": "Y"
+    },
+    {
+      "pos": 26,
+      "ref": "H",
+      "to": "Q"
+    },
+    {
+      "pos": 29,
+      "ref": "S",
+      "to": "K"
+    },
+    {
+      "pos": 31,
+      "ref": "R",
+      "to": "V"
+    },
+    {
+      "pos": 39,
+      "ref": "T",
+      "to": "E"
+    },
+    {
+      "pos": 40,
+      "ref": "N",
+      "to": "K"
+    },
+    {
+      "pos": 42,
+      "ref": "K",
+      "to": "V"
+    },
+    {
+      "pos": 44,
+      "ref": "T",
+      "to": "K"
+    },
+    {
+      "pos": 45,
+      "ref": "L",
+      "to": "V"
+    },
+    {
+      "pos": 46,
+      "ref": "K",
+      "to": "T"
+    },
+    {
+      "pos": 48,
+      "ref": "I",
+      "to": "T"
+    },
+    {
+      "pos": 49,
+      "ref": "C",
+      "to": "V"
+    },
+    {
+      "pos": 51,
+      "ref": "T",
+      "to": "E"
+    },
+    {
+      "pos": 56,
+      "ref": "V",
+      "to": "L"
+    },
+    {
+      "pos": 57,
+      "ref": "P",
+      "to": "D"
+    },
+    {
+      "pos": 58,
+      "ref": "W",
+      "to": "P"
+    },
+    {
+      "pos": 59,
+      "ref": "P",
+      "to": "L"
+    },
+    {
+      "pos": 60,
+      "ref": "T",
+      "to": "F"
+    },
+    {
+      "pos": 62,
+      "ref": "V",
+      "to": "S"
+    },
+    {
+      "pos": 63,
+      "ref": "T",
+      "to": "Y"
+    },
+    {
+      "pos": 64,
+      "ref": "T",
+      "to": "L"
+    },
+    {
+      "pos": 68,
+      "ref": "G",
+      "to": "P"
+    },
+    {
+      "pos": 69,
+      "ref": "V",
+      "to": "L"
+    },
+    {
+      "pos": 70,
+      "ref": "Q",
+      "to": "R"
+    },
+    {
+      "pos": 71,
+      "ref": "C",
+      "to": "I"
+    },
+    {
+      "pos": 73,
+      "ref": "S",
+      "to": "L"
+    },
+    {
+      "pos": 74,
+      "ref": "R",
+      "to": "K"
+    },
+    {
+      "pos": 75,
+      "ref": "Y",
+      "to": "Q"
+    },
+    {
+      "pos": 77,
+      "ref": "D",
+      "to": "V"
+    },
+    {
+      "pos": 78,
+      "ref": "H",
+      "to": "D"
+    },
+    {
+      "pos": 79,
+      "ref": "M",
+      "to": "D"
+    },
+    {
+      "pos": 80,
+      "ref": "K",
+      "to": "P"
+    },
+    {
+      "pos": 81,
+      "ref": "Q",
+      "to": "L"
+    },
+    {
+      "pos": 82,
+      "ref": "H",
+      "to": "R"
+    },
+    {
+      "pos": 83,
+      "ref": "D",
+      "to": "P"
+    },
+    {
+      "pos": 85,
+      "ref": "F",
+      "to": "L"
+    },
+    {
+      "pos": 86,
+      "ref": "K",
+      "to": "L"
+    },
+    {
+      "pos": 87,
+      "ref": "S",
+      "to": "E"
+    },
+    {
+      "pos": 88,
+      "ref": "A",
+      "to": "C"
+    },
+    {
+      "pos": 89,
+      "ref": "M",
+      "to": "L"
+    },
+    {
+      "pos": 91,
+      "ref": "E",
+      "to": "T"
+    },
+    {
+      "pos": 95,
+      "ref": "Q",
+      "to": "I"
+    },
+    {
+      "pos": 98,
+      "ref": "T",
+      "to": "K"
+    },
+    {
+      "pos": 99,
+      "ref": "I",
+      "to": "L"
+    },
+    {
+      "pos": 100,
+      "ref": "F",
+      "to": "N"
+    },
+    {
+      "pos": 103,
+      "ref": "D",
+      "to": "G"
+    },
+    {
+      "pos": 104,
+      "ref": "D",
+      "to": "E"
+    },
+    {
+      "pos": 106,
+      "ref": "N",
+      "to": "T"
+    },
+    {
+      "pos": 107,
+      "ref": "Y",
+      "to": "L"
+    },
+    {
+      "pos": 108,
+      "ref": "K",
+      "to": "D"
+    },
+    {
+      "pos": 109,
+      "ref": "T",
+      "to": "V"
+    },
+    {
+      "pos": 110,
+      "ref": "R",
+      "to": "K"
+    },
+    {
+      "pos": 111,
+      "ref": "A",
+      "to": "S"
+    },
+    {
+      "pos": 112,
+      "ref": "E",
+      "to": "R"
+    },
+    {
+      "pos": 114,
+      "ref": "K",
+      "to": "Y"
+    },
+    {
+      "pos": 123,
+      "ref": "R",
+      "to": "D"
+    },
+    {
+      "pos": 124,
+      "ref": "I",
+      "to": "V"
+    },
+    {
+      "pos": 129,
+      "ref": "I",
+      "to": "S"
+    },
+    {
+      "pos": 130,
+      "ref": "D",
+      "to": "G"
+    },
+    {
+      "pos": 133,
+      "ref": "E",
+      "to": "P"
+    },
+    {
+      "pos": 134,
+      "ref": "D",
+      "to": "G"
+    },
+    {
+      "pos": 135,
+      "ref": "G",
+      "to": "A"
+    },
+    {
+      "pos": 136,
+      "ref": "N",
+      "to": "K"
+    },
+    {
+      "pos": 137,
+      "ref": "I",
+      "to": "L"
+    },
+    {
+      "pos": 139,
+      "ref": "G",
+      "to": "T"
+    },
+    {
+      "pos": 140,
+      "ref": "H",
+      "to": "K"
+    },
+    {
+      "pos": 142,
+      "ref": "L",
+      "to": "V"
+    },
+    {
+      "pos": 143,
+      "ref": "E",
+      "to": "A"
+    },
+    {
+      "pos": 144,
+      "ref": "Y",
+      "to": "S"
+    },
+    {
+      "pos": 145,
+      "ref": "N",
+      "to": "I"
+    },
+    {
+      "pos": 146,
+      "ref": "Y",
+      "to": "R"
+    },
+    {
+      "pos": 147,
+      "ref": "N",
+      "to": "L"
+    },
+    {
+      "pos": 148,
+      "ref": "S",
+      "to": "V"
+    },
+    {
+      "pos": 149,
+      "ref": "H",
+      "to": "G"
+    },
+    {
+      "pos": 150,
+      "ref": "N",
+      "to": "P"
+    },
+    {
+      "pos": 151,
+      "ref": "V",
+      "to": "L"
+    },
+    {
+      "pos": 152,
+      "ref": "Y",
+      "to": "T"
+    },
+    {
+      "pos": 154,
+      "ref": "M",
+      "to": "A"
+    },
+    {
+      "pos": 155,
+      "ref": "A",
+      "to": "P"
+    },
+    {
+      "pos": 158,
+      "ref": "Q",
+      "to": "E"
+    },
+    {
+      "pos": 159,
+      "ref": "K",
+      "to": "R"
+    },
+    {
+      "pos": 162,
+      "ref": "I",
+      "to": "V"
+    },
+    {
+      "pos": 165,
+      "ref": "N",
+      "to": "T"
+    },
+    {
+      "pos": 166,
+      "ref": "F",
+      "to": "Y"
+    },
+    {
+      "pos": 167,
+      "ref": "K",
+      "to": "T"
+    },
+    {
+      "pos": 168,
+      "ref": "I",
+      "to": "L"
+    },
+    {
+      "pos": 169,
+      "ref": "R",
+      "to": "Q"
+    },
+    {
+      "pos": 170,
+      "ref": "H",
+      "to": "L"
+    },
+    {
+      "pos": 171,
+      "ref": "N",
+      "to": "T"
+    },
+    {
+      "pos": 172,
+      "ref": "I",
+      "to": "F"
+    },
+    {
+      "pos": 173,
+      "ref": "E",
+      "to": "T"
+    },
+    {
+      "pos": 177,
+      "ref": "V",
+      "to": "T"
+    },
+    {
+      "pos": 178,
+      "ref": "Q",
+      "to": "L"
+    },
+    {
+      "pos": 179,
+      "ref": "L",
+      "to": "T"
+    },
+    {
+      "pos": 182,
+      "ref": "H",
+      "to": "V"
+    },
+    {
+      "pos": 183,
+      "ref": "Y",
+      "to": "D"
+    },
+    {
+      "pos": 184,
+      "ref": "Q",
+      "to": "E"
+    },
+    {
+      "pos": 185,
+      "ref": "Q",
+      "to": "V"
+    },
+    {
+      "pos": 186,
+      "ref": "N",
+      "to": "I"
+    },
+    {
+      "pos": 187,
+      "ref": "T",
+      "to": "Y"
+    },
+    {
+      "pos": 189,
+      "ref": "I",
+      "to": "L"
+    },
+    {
+      "pos": 191,
+      "ref": "D",
+      "to": "E"
+    },
+    {
+      "pos": 194,
+      "ref": "V",
+      "to": "K"
+    },
+    {
+      "pos": 195,
+      "ref": "L",
+      "to": "K"
+    },
+    {
+      "pos": 198,
+      "ref": "D",
+      "to": "E"
+    },
+    {
+      "pos": 199,
+      "ref": "N",
+      "to": "A"
+    },
+    {
+      "pos": 200,
+      "ref": "H",
+      "to": "S"
+    },
+    {
+      "pos": 201,
+      "ref": "Y",
+      "to": "T"
+    },
+    {
+      "pos": 202,
+      "ref": "L",
+      "to": "Y"
+    },
+    {
+      "pos": 203,
+      "ref": "S",
+      "to": "N"
+    },
+    {
+      "pos": 204,
+      "ref": "T",
+      "to": "L"
+    },
+    {
+      "pos": 205,
+      "ref": "Q",
+      "to": "D"
+    },
+    {
+      "pos": 206,
+      "ref": "S",
+      "to": "I"
+    },
+    {
+      "pos": 207,
+      "ref": "A",
+      "to": "D"
+    },
+    {
+      "pos": 209,
+      "ref": "S",
+      "to": "T"
+    },
+    {
+      "pos": 210,
+      "ref": "K",
+      "to": "V"
+    },
+    {
+      "pos": 211,
+      "ref": "D",
+      "to": "K"
+    },
+    {
+      "pos": 213,
+      "ref": "N",
+      "to": "T"
+    },
+    {
+      "pos": 214,
+      "ref": "E",
+      "to": "V"
+    },
+    {
+      "pos": 215,
+      "ref": "K",
+      "to": "D"
+    },
+    {
+      "pos": 216,
+      "ref": "R",
+      "to": "G"
+    },
+    {
+      "pos": 218,
+      "ref": "H",
+      "to": "K"
+    },
+    {
+      "pos": 219,
+      "ref": "M",
+      "to": "F"
+    },
+    {
+      "pos": 220,
+      "ref": "V",
+      "to": "T"
+    },
+    {
+      "pos": 221,
+      "ref": "L",
+      "to": "Y"
+    },
+    {
+      "pos": 222,
+      "ref": "L",
+      "to": "E"
+    },
+    {
+      "pos": 223,
+      "ref": "E",
+      "to": "H"
+    },
+    {
+      "pos": 224,
+      "ref": "F",
+      "to": "K"
+    },
+    {
+      "pos": 225,
+      "ref": "V",
+      "to": "D"
+    },
+    {
+      "pos": 227,
+      "ref": "A",
+      "to": "P"
+    },
+    {
+      "pos": 228,
+      "ref": "A",
+      "to": "G"
+    },
+    {
+      "pos": 229,
+      "ref": "G",
+      "to": "V"
+    },
+    {
+      "pos": 230,
+      "ref": "I",
+      "to": "T"
+    },
+    {
+      "pos": 231,
+      "ref": "T",
+      "to": "P"
+    },
+    {
+      "pos": 232,
+      "ref": "L",
+      "to": "P"
+    },
+    {
+      "pos": 233,
+      "ref": "G",
+      "to": "P"
+    },
+    {
+      "pos": 234,
+      "ref": "M",
+      "to": "L"
+    },
+    {
+      "pos": 235,
+      "ref": "D",
+      "to": "S"
+    },
+    {
+      "pos": 236,
+      "ref": "E",
+      "to": "S"
+    },
+    {
+      "pos": 238,
+      "ref": "Y",
+      "to": "S"
+    },
+    {
+      "pos": 239,
+      "ref": "K",
+      "to": "Y"
+    }
+  ],
+  "r20_conserved_positions": [
+    {
+      "pos": 2,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 3,
+      "ref": "S",
+      "count": 6
+    },
+    {
+      "pos": 4,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 9,
+      "ref": "F",
+      "count": 6
+    },
+    {
+      "pos": 10,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 15,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 16,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 18,
+      "ref": "E",
+      "count": 6
+    },
+    {
+      "pos": 26,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 31,
+      "ref": "R",
+      "count": 6
+    },
+    {
+      "pos": 39,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 40,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 44,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 45,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 46,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 48,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 49,
+      "ref": "C",
+      "count": 6
+    },
+    {
+      "pos": 51,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 56,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 57,
+      "ref": "P",
+      "count": 6
+    },
+    {
+      "pos": 58,
+      "ref": "W",
+      "count": 6
+    },
+    {
+      "pos": 59,
+      "ref": "P",
+      "count": 6
+    },
+    {
+      "pos": 60,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 62,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 63,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 64,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 68,
+      "ref": "G",
+      "count": 6
+    },
+    {
+      "pos": 69,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 70,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 71,
+      "ref": "C",
+      "count": 6
+    },
+    {
+      "pos": 73,
+      "ref": "S",
+      "count": 6
+    },
+    {
+      "pos": 74,
+      "ref": "R",
+      "count": 6
+    },
+    {
+      "pos": 75,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 77,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 78,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 79,
+      "ref": "M",
+      "count": 6
+    },
+    {
+      "pos": 80,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 81,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 82,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 83,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 85,
+      "ref": "F",
+      "count": 6
+    },
+    {
+      "pos": 86,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 88,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 89,
+      "ref": "M",
+      "count": 6
+    },
+    {
+      "pos": 91,
+      "ref": "E",
+      "count": 6
+    },
+    {
+      "pos": 95,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 99,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 100,
+      "ref": "F",
+      "count": 6
+    },
+    {
+      "pos": 103,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 104,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 106,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 107,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 109,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 111,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 112,
+      "ref": "E",
+      "count": 6
+    },
+    {
+      "pos": 114,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 123,
+      "ref": "R",
+      "count": 6
+    },
+    {
+      "pos": 124,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 129,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 130,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 134,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 135,
+      "ref": "G",
+      "count": 6
+    },
+    {
+      "pos": 136,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 139,
+      "ref": "G",
+      "count": 6
+    },
+    {
+      "pos": 140,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 142,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 143,
+      "ref": "E",
+      "count": 6
+    },
+    {
+      "pos": 144,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 145,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 146,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 147,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 148,
+      "ref": "S",
+      "count": 6
+    },
+    {
+      "pos": 149,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 150,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 151,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 152,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 154,
+      "ref": "M",
+      "count": 6
+    },
+    {
+      "pos": 155,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 158,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 162,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 165,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 166,
+      "ref": "F",
+      "count": 6
+    },
+    {
+      "pos": 167,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 168,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 169,
+      "ref": "R",
+      "count": 6
+    },
+    {
+      "pos": 170,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 171,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 172,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 177,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 178,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 179,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 182,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 183,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 184,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 185,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 186,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 187,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 189,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 191,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 194,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 195,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 198,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 199,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 200,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 201,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 202,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 203,
+      "ref": "S",
+      "count": 6
+    },
+    {
+      "pos": 204,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 205,
+      "ref": "Q",
+      "count": 6
+    },
+    {
+      "pos": 206,
+      "ref": "S",
+      "count": 6
+    },
+    {
+      "pos": 207,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 209,
+      "ref": "S",
+      "count": 6
+    },
+    {
+      "pos": 210,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 211,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 213,
+      "ref": "N",
+      "count": 6
+    },
+    {
+      "pos": 214,
+      "ref": "E",
+      "count": 6
+    },
+    {
+      "pos": 215,
+      "ref": "K",
+      "count": 6
+    },
+    {
+      "pos": 216,
+      "ref": "R",
+      "count": 6
+    },
+    {
+      "pos": 218,
+      "ref": "H",
+      "count": 6
+    },
+    {
+      "pos": 219,
+      "ref": "M",
+      "count": 6
+    },
+    {
+      "pos": 220,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 221,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 222,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 223,
+      "ref": "E",
+      "count": 6
+    },
+    {
+      "pos": 224,
+      "ref": "F",
+      "count": 6
+    },
+    {
+      "pos": 225,
+      "ref": "V",
+      "count": 6
+    },
+    {
+      "pos": 227,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 228,
+      "ref": "A",
+      "count": 6
+    },
+    {
+      "pos": 229,
+      "ref": "G",
+      "count": 6
+    },
+    {
+      "pos": 230,
+      "ref": "I",
+      "count": 6
+    },
+    {
+      "pos": 231,
+      "ref": "T",
+      "count": 6
+    },
+    {
+      "pos": 232,
+      "ref": "L",
+      "count": 6
+    },
+    {
+      "pos": 233,
+      "ref": "G",
+      "count": 6
+    },
+    {
+      "pos": 234,
+      "ref": "M",
+      "count": 6
+    },
+    {
+      "pos": 235,
+      "ref": "D",
+      "count": 6
+    },
+    {
+      "pos": 238,
+      "ref": "Y",
+      "count": 6
+    },
+    {
+      "pos": 239,
+      "ref": "K",
+      "count": 6
+    }
+  ],
+  "r20_varied_positions": [
+    {
+      "pos": 29,
+      "ref": "S",
+      "count": 5,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "K"
+        },
+        {
+          "seq_id": 3,
+          "aa": "K"
+        },
+        {
+          "seq_id": 4,
+          "aa": "K"
+        },
+        {
+          "seq_id": 6,
+          "aa": "K"
+        },
+        {
+          "seq_id": 7,
+          "aa": "K"
+        }
+      ]
+    },
+    {
+      "pos": 42,
+      "ref": "K",
+      "count": 5,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "V"
+        },
+        {
+          "seq_id": 3,
+          "aa": "E"
+        },
+        {
+          "seq_id": 5,
+          "aa": "Y"
+        },
+        {
+          "seq_id": 6,
+          "aa": "Y"
+        },
+        {
+          "seq_id": 7,
+          "aa": "E"
+        }
+      ]
+    },
+    {
+      "pos": 87,
+      "ref": "S",
+      "count": 5,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "E"
+        },
+        {
+          "seq_id": 3,
+          "aa": "E"
+        },
+        {
+          "seq_id": 5,
+          "aa": "A"
+        },
+        {
+          "seq_id": 6,
+          "aa": "A"
+        },
+        {
+          "seq_id": 7,
+          "aa": "A"
+        }
+      ]
+    },
+    {
+      "pos": 102,
+      "ref": "K",
+      "count": 5,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "E"
+        },
+        {
+          "seq_id": 4,
+          "aa": "E"
+        },
+        {
+          "seq_id": 5,
+          "aa": "E"
+        },
+        {
+          "seq_id": 6,
+          "aa": "E"
+        },
+        {
+          "seq_id": 7,
+          "aa": "E"
+        }
+      ]
+    },
+    {
+      "pos": 110,
+      "ref": "R",
+      "count": 5,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "K"
+        },
+        {
+          "seq_id": 3,
+          "aa": "T"
+        },
+        {
+          "seq_id": 4,
+          "aa": "T"
+        },
+        {
+          "seq_id": 5,
+          "aa": "T"
+        },
+        {
+          "seq_id": 7,
+          "aa": "N"
+        }
+      ]
+    },
+    {
+      "pos": 181,
+      "ref": "D",
+      "count": 5,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "K"
+        },
+        {
+          "seq_id": 4,
+          "aa": "K"
+        },
+        {
+          "seq_id": 5,
+          "aa": "K"
+        },
+        {
+          "seq_id": 6,
+          "aa": "K"
+        },
+        {
+          "seq_id": 7,
+          "aa": "K"
+        }
+      ]
+    },
+    {
+      "pos": 53,
+      "ref": "K",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "E"
+        },
+        {
+          "seq_id": 5,
+          "aa": "T"
+        },
+        {
+          "seq_id": 6,
+          "aa": "E"
+        },
+        {
+          "seq_id": 7,
+          "aa": "E"
+        }
+      ]
+    },
+    {
+      "pos": 125,
+      "ref": "E",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "T"
+        },
+        {
+          "seq_id": 4,
+          "aa": "T"
+        },
+        {
+          "seq_id": 5,
+          "aa": "T"
+        },
+        {
+          "seq_id": 7,
+          "aa": "T"
+        }
+      ]
+    },
+    {
+      "pos": 137,
+      "ref": "I",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "L"
+        },
+        {
+          "seq_id": 3,
+          "aa": "L"
+        },
+        {
+          "seq_id": 4,
+          "aa": "L"
+        },
+        {
+          "seq_id": 7,
+          "aa": "V"
+        }
+      ]
+    },
+    {
+      "pos": 157,
+      "ref": "K",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 4,
+          "aa": "P"
+        },
+        {
+          "seq_id": 5,
+          "aa": "E"
+        },
+        {
+          "seq_id": 6,
+          "aa": "E"
+        },
+        {
+          "seq_id": 7,
+          "aa": "E"
+        }
+      ]
+    },
+    {
+      "pos": 159,
+      "ref": "K",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "R"
+        },
+        {
+          "seq_id": 3,
+          "aa": "N"
+        },
+        {
+          "seq_id": 4,
+          "aa": "N"
+        },
+        {
+          "seq_id": 5,
+          "aa": "R"
+        }
+      ]
+    },
+    {
+      "pos": 160,
+      "ref": "N",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 4,
+          "aa": "K"
+        },
+        {
+          "seq_id": 5,
+          "aa": "H"
+        },
+        {
+          "seq_id": 6,
+          "aa": "H"
+        },
+        {
+          "seq_id": 7,
+          "aa": "H"
+        }
+      ]
+    },
+    {
+      "pos": 217,
+      "ref": "D",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "N"
+        },
+        {
+          "seq_id": 4,
+          "aa": "N"
+        },
+        {
+          "seq_id": 6,
+          "aa": "N"
+        },
+        {
+          "seq_id": 7,
+          "aa": "N"
+        }
+      ]
+    },
+    {
+      "pos": 236,
+      "ref": "E",
+      "count": 4,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "S"
+        },
+        {
+          "seq_id": 5,
+          "aa": "D"
+        },
+        {
+          "seq_id": 6,
+          "aa": "D"
+        },
+        {
+          "seq_id": 7,
+          "aa": "D"
+        }
+      ]
+    },
+    {
+      "pos": 116,
+      "ref": "E",
+      "count": 3,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "D"
+        },
+        {
+          "seq_id": 6,
+          "aa": "D"
+        },
+        {
+          "seq_id": 7,
+          "aa": "D"
+        }
+      ]
+    },
+    {
+      "pos": 173,
+      "ref": "E",
+      "count": 3,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "T"
+        },
+        {
+          "seq_id": 3,
+          "aa": "T"
+        },
+        {
+          "seq_id": 4,
+          "aa": "T"
+        }
+      ]
+    },
+    {
+      "pos": 7,
+      "ref": "E",
+      "count": 2,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "K"
+        },
+        {
+          "seq_id": 4,
+          "aa": "A"
+        }
+      ]
+    },
+    {
+      "pos": 37,
+      "ref": "D",
+      "count": 2,
+      "variants": [
+        {
+          "seq_id": 6,
+          "aa": "N"
+        },
+        {
+          "seq_id": 7,
+          "aa": "N"
+        }
+      ]
+    },
+    {
+      "pos": 94,
+      "ref": "V",
+      "count": 2,
+      "variants": [
+        {
+          "seq_id": 5,
+          "aa": "K"
+        },
+        {
+          "seq_id": 7,
+          "aa": "K"
+        }
+      ]
+    },
+    {
+      "pos": 132,
+      "ref": "K",
+      "count": 2,
+      "variants": [
+        {
+          "seq_id": 5,
+          "aa": "A"
+        },
+        {
+          "seq_id": 6,
+          "aa": "A"
+        }
+      ]
+    },
+    {
+      "pos": 133,
+      "ref": "E",
+      "count": 2,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "P"
+        },
+        {
+          "seq_id": 4,
+          "aa": "A"
+        }
+      ]
+    },
+    {
+      "pos": 163,
+      "ref": "K",
+      "count": 2,
+      "variants": [
+        {
+          "seq_id": 6,
+          "aa": "R"
+        },
+        {
+          "seq_id": 7,
+          "aa": "N"
+        }
+      ]
+    },
+    {
+      "pos": 17,
+      "ref": "V",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 5,
+          "aa": "I"
+        }
+      ]
+    },
+    {
+      "pos": 35,
+      "ref": "E",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 7,
+          "aa": "Y"
+        }
+      ]
+    },
+    {
+      "pos": 38,
+      "ref": "A",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 6,
+          "aa": "R"
+        }
+      ]
+    },
+    {
+      "pos": 97,
+      "ref": "R",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 7,
+          "aa": "A"
+        }
+      ]
+    },
+    {
+      "pos": 98,
+      "ref": "T",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "K"
+        }
+      ]
+    },
+    {
+      "pos": 108,
+      "ref": "K",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 2,
+          "aa": "D"
+        }
+      ]
+    },
+    {
+      "pos": 141,
+      "ref": "K",
+      "count": 1,
+      "variants": [
+        {
+          "seq_id": 3,
+          "aa": "E"
+        }
+      ]
+    }
+  ]
+}

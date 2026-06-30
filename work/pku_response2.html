@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <title></title>
+    <link rel="icon" href="data:image/jpeg;base64,">
+    <style>
+        body {
+            font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "sans-serif";
+        }
+
+        .box {
+            width: 320px;
+            height: 245px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+        }
+
+        .logobox {
+            display: flex;
+            justify-content: center;
+        }
+
+        .tips {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .tips-title {
+            font-size: 16px;
+            color: #0D0F54;
+            font-weight: normal;
+        }
+
+        .verify-title {
+            margin-bottom: 8px;
+            color: #000;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 24px;
+            text-align: left;
+        }
+
+        .input-box {
+            width: 100%;
+            height: 30px;
+            background-color: #F0F2F7;
+            border-radius: 4px;
+            line-height: 26px;
+        }
+
+        .lock {
+            margin-left: 16px;
+            margin-right: 10px;
+            width: 16px;
+            height: 16px;
+            position: relative;
+            top: 4px;
+        }
+
+        .password-input {
+            width: 250px;
+            border: none;
+            background-color: #F0F2F7;
+        }
+
+        .password-input::-ms-reveal {
+            display: none;
+        }
+
+        .button {
+            margin-top: 16px;
+            width: 100%;
+            height: 30px;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .err-text {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #e60012;
+        }
+
+        ::-webkit-input-placeholder {
+            color: rgba(0, 0, 0, 0.30) !important;
+            font-weight: 200;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        .mobile-verifycode {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+
+        .tel-input {
+            width: 250px;
+            border: none;
+            background-color: #F0F2F7;
+        }
+
+        .tel-input::-ms-reveal {
+            display: none;
+        }
+
+        .visitor-input {
+            width: 300px;
+            border: none;
+            background-color: #F0F2F7;
+        }
+
+        .visitor-input::-ms-reveal {
+            display: none;
+        }
+
+        .verifycode-input {
+            width: 150px;
+            border: none;
+            background-color: #F0F2F7;
+        }
+
+        .verifycode-input::-ms-reveal {
+            display: none;
+        }
+
+        .verifycode-box {
+            width: 70%;
+            height: 30px;
+            margin-right: 10px;
+            background-color: #F0F2F7;
+            border-radius: 4px;
+            line-height: 26px;
+        }
+
+        .mobile-button {
+            width: 30%;
+            height: 30px;
+            color: #777;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            cursor: pointer;
+            background: #fff
+        }
+
+        .mobile-button:disabled {
+            cursor: not-allowed;
+        }
+
+        .mobile-button:focus {
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+
+        .mobile-button:visited {
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+
+        .check-user-policy {
+            color: #7F8391B2;
+            font-size: 13px;
+            line-height: 21px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .policy-span {
+            color: #126EE3;
+            cursor: pointer;
+        }
+
+        .agrees-pan {
+            color: #126EE3;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="logobox">
+            <img class="logo" src="data:image/jpeg;base64," />
+        </div>
+        <div class="tips"><span class="tips-title">Mobile Verification</span></div>
+        <form action="/link" method="POST" name="annoymous" id="as_form">
+            <input type="hidden" name="id" value="" id="link_id" />
+            <input type="hidden" name="type" value="" />
+            <input type="hidden" name="password_required" value="false" />
+            <input type="hidden" name="verify_mobile" value="false" />
+            <input type="hidden" name="verifying_tel" value="" class="verifying_tel" />
+            <input type="hidden" name="vcode_id" value="" class="vcode_id" />
+            <input type="hidden" name="title" value="" />
+            <input type="hidden" name="expires_at" value="" />
+            <input type="hidden" name="item_type" value="" />
+            <input type="hidden" name="belongs_to" value="" />
+            <input type="hidden" name="theme" value="" />
+            <input type="hidden" name="logo" value="" />
+            <input type="hidden" name="product" value="" />
+            <input type="hidden" name="favicon" value="" class="hidden-favicon" />
+            <input type="hidden" name="submit_type" value="" class="submit_type" />
+            <input type="hidden" name="mobile_btn_text" value="Send" class="mobile_btn_text" />
+            <input type="hidden" name="is_init" value="" class="is_init" />
+
+            <button id="confirm-btn" class="button" style="background-color: ;"
+                type="submit">OK</button>
+            <div class="err-text"><span name="err_message_confirm" id="err_confirm">参数不合法。</span></div>
+        </form>
+        <div class="check-user-policy"><span class="title-span">Please read </span><span class="agrees-pan"
+                onclick="agreeClick()">User Agreement,</span><span class="policy-span"
+                onclick="policyClick()">Privacy Policy</span></div>
+    </div>
+</body>
+<script>
+    function agreeClick() {
+        var agreeURL = location.origin + "" + "/Agreement/UserAgreement/ServiceAgreement-" + "CN" + ".html";
+        window.open(agreeURL);
+    }
+    function policyClick() {
+        var policyURL = location.origin + "" + "/Agreement/Privacy/Privacy-" + "CN" + ".html";
+        window.open(policyURL);
+    }
+
+    var pwdInput = document.querySelector(".password-input");
+    var phoneElement = document.querySelector(".tel-input");
+    var mobileCodeInput = document.querySelector(".verifycode-input");
+    var visitorInput = document.querySelector(".visitor-input");
+    var vcodeId = document.querySelector(".vcode_id");
+    var verifyingTel = document.querySelector(".verifying_tel");
+    var errMessageMobile = document.querySelector("#err_mobile");
+    var errVistorFormat = document.querySelector("#err_vistor_format");
+    var errMessagePwd = document.querySelector("#err_password");
+    var errMessageConfirm = document.querySelector("#err_confirm");
+
+    var mobileBtnElement = document.querySelector(".mobile-button");
+    var confirmBtnElement = document.querySelector("#confirm-btn");
+    var mobileBtnText = document.querySelector(".mobile_btn_text");
+    var isInitElement = document.querySelector(".is_init");
+    var linkIdElement = document.querySelector("#link_id");
+    var linkId="";
+    if(linkIdElement){
+        linkId=linkIdElement.value
+    }
+    sessionStorage.setItem("submitStatus", 0);
+
+    function setTipsFn(pwdTips, mobileTips, confirmTips) {
+        if (errMessagePwd) errMessagePwd.innerText = pwdTips;
+        if (errMessageMobile) errMessageMobile.innerText = mobileTips;
+        if (errMessageConfirm) errMessageConfirm.innerText = confirmTips;
+    }
+
+    function mobleBtnStatusHandler(countdown) {
+        if (!mobileBtnElement) return;
+        if (typeof countdown === "number" && countdown % 1 === 0 && countdown > 0) {
+            mobileBtnElement.disabled = true;
+            var interval = setInterval(function () {
+                countdown--;
+                if (countdown === 0) {
+                    mobileBtnElement.innerText = "Send";
+                    mobileBtnElement.disabled = false;
+                    sessionStorage.removeItem(linkId + "countdown");
+                    clearInterval(interval);
+                    interval = null;
+                } else {
+                    mobileBtnElement.innerText = "Resend" + countdown + 's';
+                    sessionStorage.setItem(linkId + "countdown", countdown + "");
+                }
+                if (mobileBtnText) mobileBtnText.value = mobileBtnElement.innerText;
+            }, 1000)
+        }
+    }
+    if (pwdInput) {
+        pwdInput.addEventListener("input", function () {
+            setTipsFn("", "", "");
+        })
+    }
+
+    if (mobileCodeInput) {
+        mobileCodeInput.addEventListener("input", function () {
+            setTipsFn("", "", "");
+        })
+    }
+    if (visitorInput) {
+        visitorInput.addEventListener("input", function (e) {
+            setTipsFn("", "", "");
+            if (e.target.value && (/[#\\/:*?？：“”‘’'"<>|]/.test(e.target.value) || e.target.value.length > 128)) {
+                errVistorFormat.hidden = false;
+            } else {
+                errVistorFormat.hidden = true;
+            }
+        })
+    }
+
+    if (mobileBtnElement) {
+        mobileBtnElement.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (phoneElement) {
+                var isTelephoneNumber = /1[^0-2][0-9]{9}/.test(phoneElement.value);
+                if (!isTelephoneNumber) {
+                    var mobileTips = "";
+                    if (phoneElement.value.length) {
+                        mobileTips = "Wrong format.";
+                    } else {
+                        mobileTips = "Phone number is required.";
+                    }
+                    setTipsFn("", mobileTips, "");
+                    return;
+                }
+                var submitTypeInput = document.querySelector(".submit_type");
+                if (submitTypeInput) { submitTypeInput.value = "sendSmsVcode"; }
+                setTipsFn("", "", "");
+                sessionStorage.setItem(linkId + "countdown", "60");
+                document.getElementById("as_form").submit();
+            }
+        })
+    }
+
+    if (confirmBtnElement) {
+        confirmBtnElement.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (pwdInput) {
+                if (!pwdInput.value) {
+                    var pwdTips = "This field is required.";
+                    setTipsFn(pwdTips, "", "");
+                    return;
+                }
+            }
+            if (phoneElement) {
+                if (phoneElement.value && /1[^0-2][0-9]{9}/.test(phoneElement.value)) {
+                    var mobileTips = "";
+                    if (!(mobileCodeInput && mobileCodeInput.value)) {
+                        mobileTips = "Verification code is required.";
+                    } else if (!(visitorInput && visitorInput.value)) {
+                        mobileTips = "This field is required";
+                    }
+                    if (mobileTips) {
+                        setTipsFn("", mobileTips, "");
+                        return;
+                    } else if (visitorInput.value && (/[#\\/:*?"<>|]/.test(visitorInput.value) || visitorInput.value.length > 128)) {
+                        errVistorFormat.hidden = false;
+                        return;
+                    }
+                } else {
+                    var mobileTips = "";
+                    if (phoneElement.value) {
+                        mobileTips = "Wrong format.";
+                    } else {
+                        mobileTips = "Phone number is required.";
+                    }
+                    setTipsFn("", mobileTips, "");
+                    return;
+                }
+                errVistorFormat.hidden = true;
+                if (verifyingTel.value !== phoneElement.value) {
+                    vcodeId.value = ""
+                }
+            }
+            document.getElementById("as_form").submit();
+            sessionStorage.setItem("submitStatus", 1);
+        })
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (!mobileBtnElement) return;
+        if (isInitElement&&isInitElement.value === "true") {
+            sessionStorage.removeItem(linkId + "countdown");
+        } else {
+            var countDownLocal = sessionStorage.getItem(linkId + "countdown");
+            if (countDownLocal && !Boolean(Number(sessionStorage.getItem("submitStatus")))) {
+                var countdown = Number(countDownLocal);
+                mobleBtnStatusHandler(countdown);
+            }
+        }
+    })
+
+
+</script>
+
+</html>

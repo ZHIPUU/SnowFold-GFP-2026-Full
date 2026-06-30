@@ -1,0 +1,34 @@
+{
+  "n_total": 141144,
+  "best_overall": {
+    "type": "cgreGFP",
+    "mutations": "T202S:E231D",
+    "pred_brightness": 4.56877326965332,
+    "pred_relative": 37048.7265625
+  },
+  "per_type_best": {
+    "amacGFP": {
+      "mutations": "V11L:I122V:M127L:I166V:G173C:A205V",
+      "pred_brightness": 4.22017765045166,
+      "pred_relative": 16602.658203125
+    },
+    "avGFP": {
+      "mutations": "E5K:D75N:N104Y",
+      "pred_brightness": 4.086629867553711,
+      "pred_relative": 12207.587890625
+    },
+    "cgreGFP": {
+      "mutations": "T202S:E231D",
+      "pred_brightness": 4.56877326965332,
+      "pred_relative": 37048.7265625
+    },
+    "ppluGFP": {
+      "mutations": "Q30L:H200R:I218L:A219L:F220S:A221H",
+      "pred_brightness": 4.454704284667969,
+      "pred_relative": 28490.77734375
+    }
+  },
+  "top50_count_by_type": {
+    "cgreGFP": 50
+  }
+}

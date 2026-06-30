@@ -1,0 +1,40 @@
+[18:08:59] === Step 2: 训练 XGBoost GPU + 加性 Ridge baseline ===
+[18:08:59] 加载嵌入 + 元数据...
+[18:08:59]   embeddings shape=(141144, 1280), dtype=float32
+[18:08:59]   ids shape=(141144, 3), cols=['type', 'mutations', 'brightness']
+[18:08:59] 构建特征矩阵 X (嵌入 + type one-hot)...
+[18:08:59]   types=['amacGFP', 'avGFP', 'cgreGFP', 'ppluGFP'], type_oh shape=(141144, 4)
+[18:09:00]   X shape=(141144, 1284), y shape=(141144,), y range=[1.283,4.603]
+[18:09:00] 9:1 train/val split (stratified by type)...
+[18:09:00]   train=127031, val=14113
+[18:09:00]   X_train=(127031, 1284), X_val=(14113, 1284)
+[18:09:00] 
+--- Baseline: 加性 Ridge (per-parent) ---
+[18:09:02]   平均突变数/变体: 3.27
+[18:09:02]   amacGFP: train=30160, val=3351, 唯一突变数=1900
+[18:09:03]     Ridge val R²=-0.093, RMSE=0.470, MAE=0.364, rel_brightness=0.78×
+[18:09:03]   avGFP: train=46544, val=5171, 唯一突变数=1770
+[18:09:03]     Ridge val R²=-0.139, RMSE=1.131, MAE=1.044, rel_brightness=0.28×
+[18:09:03]   cgreGFP: train=22065, val=2451, 唯一突变数=2852
+[18:09:04]     Ridge val R²=-0.172, RMSE=0.831, MAE=0.755, rel_brightness=0.47×
+[18:09:04]   ppluGFP: train=28262, val=3140, 唯一突变数=2739
+[18:09:05]     Ridge val R²=-0.025, RMSE=0.524, MAE=0.420, rel_brightness=0.69×
+[18:09:05]   Baseline 总体 val: R²=0.222, RMSE=0.838, MAE=0.693
+[18:09:05]   保存 step2_baseline_ridge.json
+[18:09:05] 
+--- 主模型: XGBoost GPU (嵌入 + type one-hot) ---
+[18:09:06]   DMatrix 构建完成 (X_train=(127031, 1284), X_val=(14113, 1284))
+[18:10:29]   XGBoost 训练完成,耗时 84.4s, best_iter=1775
+[18:10:30]   XGBoost val: R²=0.517, RMSE=0.661, MAE=0.495
+[18:10:30]   Baseline val: R²=0.222, RMSE=0.838, MAE=0.693
+[18:10:30]   XGBoost 提升: ΔR²=+0.295, RMSE比=0.79
+[18:10:30]   [amacGFP] XGB R²=0.147 RMSE=0.415 | Ridge R²=-0.093 RMSE=0.470
+[18:10:30]   [avGFP] XGB R²=0.353 RMSE=0.853 | Ridge R²=-0.139 RMSE=1.131
+[18:10:30]   [cgreGFP] XGB R²=0.249 RMSE=0.665 | Ridge R²=-0.172 RMSE=0.831
+[18:10:30]   [ppluGFP] XGB R²=0.125 RMSE=0.484 | Ridge R²=-0.025 RMSE=0.524
+[18:10:30]   保存 step2_xgboost_gpu.json
+[18:10:30]   保存 step2_xgboost_gpu.model
+[18:10:30] 
+=== Step 2 DONE ===
+[18:10:30] XGBoost GPU 训练完成: val R²=0.517, RMSE=0.661, best_iter=1775
+[18:10:30] Baseline Ridge: val R²=0.222, RMSE=0.838

@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.npy
+*.model
+
+# Protein structures (large binary)
+*.pdb
+
+# Node / Frontend
+node_modules/
+protein-design-atlas/frontend/node_modules/
+protein-design-atlas/frontend/dist/
+protein-design-atlas/backend/__pycache__/
+
+# Archives & tools (copied from other locations, not source)
+archives/
+tools/proteinmpnn_r10/
+
+# gssh (separate project: https://github.com/ZHIPUU/gssh)
+gssh/
+gssh_help.txt
+
+# Logs
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large data files (competition-provided, not our work)
+GFP_data.xlsx
+*.db
+
+# Large binary files (>50MB, exceeds GitHub limit)
+*.npy
+*.tar
+*.pt
+work/GeoEvoBuilder.tar
+work/GeoEvoBuilder/geoevobuilder/params/
+work/round2/esm650m_embeddings.npy
+*.exe
+gssh/gssh.exe
+
+# Third-party tool repos (cloned, not our code)
+work/round4/ProteinMPNN/
+work/round5/LigandMPNN/
+work/round5/GeoEvoBuilder/
+_review/ssh-executor-mcp/

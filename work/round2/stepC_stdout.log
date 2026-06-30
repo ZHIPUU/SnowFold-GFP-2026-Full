@@ -1,0 +1,44 @@
+加载数据...
+  emb=(141144, 1280), ids=(141144, 3)
+  突变数分布: 0 muts=4, 1 mut=4595, 2 muts=50177, 3+ muts=86368
+
+[1/4] 估计单点突变效应...
+  avGFP: 1084 个单点变体
+  amacGFP: 1201 个单点变体
+  cgreGFP: 1169 个单点变体
+  ppluGFP: 1141 个单点变体
+  总计 4595 个唯一单点突变效应
+
+[2/4] 估计 pairwise epistasis (从双突变数据)...
+  avGFP: 12777 个双突变变体
+  amacGFP: 11260 个双突变变体
+  cgreGFP: 10148 个双突变变体
+  ppluGFP: 15992 个双突变变体
+  总计 48010 个唯一双突变 epistasis 项
+
+[3/4] 构建特征...
+  构建单点效应 / 加性预测 / epistasis 聚合特征...
+  extra_features shape: (141144, 12)
+  拼接 ESM2-650M 嵌入...
+  X_full=(141144, 1292), y_full=(141144,), took 7.6s
+
+[4/4] 9:1 train/val split + 重训 XGBoost GPU...
+  train=127031, val=14113
+  XGBoost 训练(带 epistasis 特征)...
+[0]	train-rmse:0.90392	train-mae:0.73082	val-rmse:0.90869	val-mae:0.73426
+[100]	train-rmse:0.22846	train-mae:0.11515	val-rmse:0.27758	val-mae:0.13489
+[200]	train-rmse:0.20327	train-mae:0.10313	val-rmse:0.27497	val-mae:0.13194
+[243]	train-rmse:0.19580	train-mae:0.09985	val-rmse:0.27492	val-mae:0.13203
+
+=== 评估结果(带 epistasis 特征) ===
+  XGBoost val: R²=0.9162, RMSE=0.2749, MAE=0.1319
+  XGBoost train: RMSE=0.2043, MAE=0.1036
+  best_iter=193
+  [amacGFP] val R²=0.8840, RMSE=0.1531, n=3351
+  [avGFP] val R²=0.8750, RMSE=0.3747, n=5171
+  [cgreGFP] val R²=0.8713, RMSE=0.2755, n=2451
+  [ppluGFP] val R²=0.9092, RMSE=0.1558, n=3140
+
+✅ Step C 完成, R²=0.9162(baseline 0.517 → epistasis 后 0.9162, ΔR²=+0.3992)
+   模型保存到 stepC_xgboost_epistasis.model
+   Summary 保存到 stepC_summary.json

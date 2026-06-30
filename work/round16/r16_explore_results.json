@@ -1,0 +1,184 @@
+{
+  "control": [
+    {
+      "name": "sfGFP_WT",
+      "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+      "r8": {
+        "seq_len": 238,
+        "ptm": 0.5048,
+        "global_plddt": 0.49,
+        "chromo_plddt": 0.57,
+        "sort_score": 0.2051,
+        "time_s": 7.4,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 238,
+        "ptm": 0.5089,
+        "global_plddt": 0.49,
+        "chromo_plddt": 0.58,
+        "sort_score": 0.2067,
+        "time_s": 10.4,
+        "num_recycles": 12
+      }
+    },
+    {
+      "name": "avGFP_WT",
+      "seq": "MSKGEELFTGVPVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITLGMDELYK",
+      "r8": {
+        "seq_len": 239,
+        "ptm": 0.4909,
+        "global_plddt": 0.47,
+        "chromo_plddt": 0.58,
+        "sort_score": 0.1995,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 239,
+        "ptm": 0.5103,
+        "global_plddt": 0.49,
+        "chromo_plddt": 0.58,
+        "sort_score": 0.2073,
+        "time_s": 10.5,
+        "num_recycles": 12
+      }
+    }
+  ],
+  "r15_top3": [
+    {
+      "name": "R14_A_T02_037",
+      "seq": "MTIPGETLLAGVVPVRVNLDGDVNGKKFKVVGEGEGDATKGELRLTFEVTEGELPLDPLLLSYILTYPLSIFRKMPKDNPLRPFYLACLPEGYVIERTLDFKGEGTLNVTSETYFDGDTLVSNITLKGTGFKEGGKLLTKKVKEIRLVGDLTITPDEEKKGVKLTYTLELTFEDGSTSTADVKELIYPKGKGPETLPEPQTLTVDLTLTAVPEVEGDRFRFEHRDPPGVEPPPLSELSK",
+      "r8": {
+        "seq_len": 239,
+        "ptm": 0.9039,
+        "global_plddt": 0.9,
+        "chromo_plddt": 0.92,
+        "sort_score": 0.367,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 239,
+        "ptm": 0.9048,
+        "global_plddt": 0.9,
+        "chromo_plddt": 0.92,
+        "sort_score": 0.3674,
+        "time_s": 10.5,
+        "num_recycles": 12
+      }
+    },
+    {
+      "name": "R14_D_T02_033",
+      "seq": "MTIPGEELLSGVVPVKVNLDGDVNGQKFKVKGEGTGDATTGKLSLEFEVTEGTLPLDPLLLSYILTYPLSIFRKMPEDDPLRPFLLACLPEGYVREITLDFEGEGTLKVKSETHFEGDTLVSNITLKGTDFKEGGKLLTKKIKSIRLVGKRTITPDEERHGVNLTYTLELTWEDGSTSTAKVKELIYPIGEGPEELPEPQEITIDEVFKAKPEVNGNKFKYEYQDEPGVTPPPLSELSK",
+      "r8": {
+        "seq_len": 239,
+        "ptm": 0.8963,
+        "global_plddt": 0.89,
+        "chromo_plddt": 0.88,
+        "sort_score": 0.3639,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 239,
+        "ptm": 0.8965,
+        "global_plddt": 0.89,
+        "chromo_plddt": 0.89,
+        "sort_score": 0.3639,
+        "time_s": 10.5,
+        "num_recycles": 12
+      }
+    },
+    {
+      "name": "R14_A_T01_013",
+      "seq": "MTIPGETLLSGKVPVKVNLDGDVNGEKFKVEGEGTGDATKGELKLEFKVTEGELPLDWLLLSYILTYPLSIFKKMPADHPLKPFYLCCLPEGYIIERTLDFEGEGTLKVTSKTYFDGDTLVSEITLKGTDFKEGGKLLTKEIKEIVEEGELTITPDEEKHGVKRTYTLKLTFKDGSTLTAKVDELIYPNGKGPEKLPEAQKWTINVVYKAKPKVEGDKAKVEWKDPEGVTPPPLSELSK",
+      "r8": {
+        "seq_len": 239,
+        "ptm": 0.9032,
+        "global_plddt": 0.89,
+        "chromo_plddt": 0.93,
+        "sort_score": 0.3668,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 239,
+        "ptm": 0.9039,
+        "global_plddt": 0.89,
+        "chromo_plddt": 0.93,
+        "sort_score": 0.367,
+        "time_s": 10.5,
+        "num_recycles": 12
+      }
+    }
+  ],
+  "exploration": [
+    {
+      "name": "avGFP_sf6mut",
+      "seq": "MSKGEELFTGVPVPILVELDGDVNGHKFSVRGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTISFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+      "r8": {
+        "seq_len": 239,
+        "ptm": 0.4814,
+        "global_plddt": 0.45,
+        "chromo_plddt": 0.51,
+        "sort_score": 0.1954,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 239,
+        "ptm": 0.4785,
+        "global_plddt": 0.45,
+        "chromo_plddt": 0.5,
+        "sort_score": 0.1943,
+        "time_s": 10.5,
+        "num_recycles": 12
+      }
+    },
+    {
+      "name": "sfGFP_cstable",
+      "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGIDYGMDELYK",
+      "r8": {
+        "seq_len": 238,
+        "ptm": 0.5037,
+        "global_plddt": 0.49,
+        "chromo_plddt": 0.56,
+        "sort_score": 0.2046,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 238,
+        "ptm": 0.5069,
+        "global_plddt": 0.49,
+        "chromo_plddt": 0.57,
+        "sort_score": 0.2059,
+        "time_s": 10.4,
+        "num_recycles": 12
+      }
+    },
+    {
+      "name": "R14A013_disulfide",
+      "seq": "MTIPGETLLSGKVPVKVNLDGDVNGEKFKVEGEGTGDATKGELKLEFKVTEGELPLDWLLLSYILCYPLSIFKKMPADHPLKPFYLCCLPEGYIIERTLDFEGEGTLKVTSKTYFDGDTLVSEITLKGTDFKEGGKLLTKEIKEIVEEGELTITPDEEKHGVKRTYTLKLTFKDGSTLTAKVDELIYPNGKGPEKLPEAQKWTINVVYKAKPKVEGDKAKVEWKDPEGVTPPPLSELSK",
+      "r8": {
+        "seq_len": 239,
+        "ptm": 0.8675,
+        "global_plddt": 0.84,
+        "chromo_plddt": 0.88,
+        "sort_score": 0.3522,
+        "time_s": 7.3,
+        "num_recycles": 8
+      },
+      "r12": {
+        "seq_len": 239,
+        "ptm": 0.8745,
+        "global_plddt": 0.85,
+        "chromo_plddt": 0.89,
+        "sort_score": 0.355,
+        "time_s": 10.5,
+        "num_recycles": 12
+      }
+    }
+  ]
+}

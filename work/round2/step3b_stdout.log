@@ -1,0 +1,88 @@
+加载 top_candidates.csv ...
+  total 97272 rows, cols=['type', 'n_mut', 'mutations', 'mut_str', 'pred_brightness', 'pred_relative', 'seq']
+  top 10K by old Ridge, pred_relative range [10.67, 183.95]
+
+加载 ESM2-650M ...
+  加载完毕, missing=572, unexpected=570
+  [18:19:29] 128/10000 (1.3%) rate=27.1 seq/s, ETA=364s, GPU mem=5.55 GB
+  [18:19:50] 768/10000 (7.7%) rate=29.3 seq/s, ETA=315s, GPU mem=5.55 GB
+  [18:20:13] 1408/10000 (14.1%) rate=28.8 seq/s, ETA=298s, GPU mem=5.55 GB
+  [18:20:35] 2048/10000 (20.5%) rate=28.7 seq/s, ETA=277s, GPU mem=5.55 GB
+  [18:20:55] 2688/10000 (26.9%) rate=29.6 seq/s, ETA=247s, GPU mem=5.55 GB
+  [18:21:17] 3328/10000 (33.3%) rate=29.3 seq/s, ETA=228s, GPU mem=5.55 GB
+  [18:21:41] 3968/10000 (39.7%) rate=29.0 seq/s, ETA=208s, GPU mem=5.55 GB
+  [18:22:04] 4608/10000 (46.1%) rate=28.7 seq/s, ETA=188s, GPU mem=5.55 GB
+  [18:22:28] 5248/10000 (52.5%) rate=28.5 seq/s, ETA=167s, GPU mem=5.55 GB
+  [18:22:52] 5888/10000 (58.9%) rate=28.3 seq/s, ETA=145s, GPU mem=5.55 GB
+  [18:23:16] 6528/10000 (65.3%) rate=28.1 seq/s, ETA=123s, GPU mem=5.55 GB
+  [18:23:40] 7168/10000 (71.7%) rate=28.0 seq/s, ETA=101s, GPU mem=5.55 GB
+  [18:24:04] 7808/10000 (78.1%) rate=27.9 seq/s, ETA=79s, GPU mem=5.55 GB
+  [18:24:28] 8448/10000 (84.5%) rate=27.8 seq/s, ETA=56s, GPU mem=5.55 GB
+  [18:24:52] 9088/10000 (90.9%) rate=27.7 seq/s, ETA=33s, GPU mem=5.55 GB
+  [18:25:16] 9728/10000 (97.3%) rate=27.6 seq/s, ETA=10s, GPU mem=5.55 GB
+
+嵌入完成, 耗时 362.6s, embeddings shape=(10000, 1280)
+
+加载 XGBoost 模型 ...
+  X=(10000, 1284)
+  XGBoost 预测完成, shape=(10000,)
+
+=== Top 50 (按 XGBoost Finit_rel) ===
+       type                             mut_str  pred_brightness_xgb  finit_rel_xgb
+3905  avGFP              I152S:G104C:T97M:L220V            -0.187984       0.000124
+1879  avGFP               I152S:I171Q:L42N:T38S            -0.216895       0.000116
+6951  avGFP               I152S:L42N:T97M:K156E            -0.222056       0.000114
+8119  avGFP               I152S:L42N:T38S:K156E            -0.237821       0.000110
+6392  avGFP               I152S:L42N:T97M:G127M            -0.238018       0.000110
+8278  avGFP             I152S:G127M:Q183E:P211K            -0.246556       0.000108
+6004  avGFP              I152S:A179E:Q183E:T38S            -0.249089       0.000107
+8396  avGFP              I152S:G127M:L220V:T38S            -0.251453       0.000107
+6920  avGFP              I171Q:G104C:G127M:T38S            -0.252228       0.000107
+7285  avGFP              I152S:T97M:G127M:Q183E            -0.255646       0.000106
+8261  avGFP               I152S:T97M:G127M:F71T            -0.257392       0.000105
+5106  avGFP              I152S:A179E:T97M:Q183E            -0.261030       0.000104
+8576  avGFP               G127A:A179E:L42N:T38S            -0.267108       0.000103
+7457  avGFP               I152S:L42N:G127M:T38S            -0.271946       0.000102
+6069  avGFP             I152S:A179E:Q183E:H139G            -0.282701       0.000099
+5140  avGFP              I152S:G104C:T38S:L141Q            -0.283074       0.000099
+7000  avGFP               I152S:L42N:T97M:K131Q            -0.285017       0.000099
+6121  avGFP              I152S:K162A:T97M:G127M            -0.286189       0.000099
+279   avGFP         I152S:I171Q:G127A:L42N:T97M            -0.289292       0.000098
+7786  avGFP              I152S:T97M:G127M:H139G            -0.289957       0.000098
+6128  avGFP             I152S:A179E:Q183E:K156E            -0.292977       0.000097
+105   avGFP  I152S:I171Q:G127A:G104C:A179E:T38S            -0.294593       0.000097
+5069  avGFP              I152S:A179E:T97M:G127M            -0.294993       0.000097
+7876  avGFP              I152S:T97M:G127M:K156E            -0.297624       0.000096
+1373  avGFP              I152S:G127A:G104C:T97M            -0.298503       0.000096
+7529  avGFP              I152S:T97M:L220V:P211K            -0.299480       0.000096
+8912  avGFP             I152S:G127M:P211K:K131Q            -0.301268       0.000095
+6165  avGFP                I152S:G4R:T97M:G127M            -0.303318       0.000095
+8059  avGFP               I152S:L42N:T38S:H139G            -0.304980       0.000094
+7136  avGFP              G127A:G104C:T97M:K131Q            -0.305303       0.000094
+608   avGFP        I152S:I171Q:G104C:A179E:T97M            -0.312014       0.000093
+6793  avGFP               I152S:F83H:P211K:T38S            -0.314117       0.000092
+7420  avGFP              I152S:T38R:K156E:K131Q            -0.314294       0.000092
+1508  avGFP              I152S:G127A:A179E:T97M            -0.314483       0.000092
+7565  avGFP              I171Q:G104C:T38S:K156E            -0.315058       0.000092
+1629  avGFP               I152S:I171Q:L42N:T97M            -0.319413       0.000091
+6322  avGFP             I152S:A179E:P211K:K156E            -0.321480       0.000091
+3305  avGFP               I152S:H169R:G4R:G127M            -0.322626       0.000091
+6639  avGFP             I152S:G104H:Q183E:P211K            -0.323298       0.000091
+1178  avGFP              I152S:I171Q:G127A:T38S            -0.324078       0.000090
+66    avGFP  I152S:I171Q:G127A:G104C:A179E:T97M            -0.324581       0.000090
+4172  avGFP             I152S:H169R:G127M:K131Q            -0.324601       0.000090
+8074  avGFP              I152S:T97M:G127M:L141Q            -0.324858       0.000090
+5858  avGFP             I152S:A179E:Q183E:P211K            -0.325139       0.000090
+8550  avGFP             I152S:G127M:Q183E:H139G            -0.326215       0.000090
+1922  avGFP              I152S:I171Q:K162A:F71T            -0.327819       0.000090
+377   avGFP         I152S:I171Q:G127A:L42N:T38S            -0.328088       0.000090
+6591  avGFP             I152S:G104H:G127M:P211K            -0.329387       0.000089
+4855  avGFP              I171Q:G104C:A179E:T38S            -0.329935       0.000089
+843   avGFP        I152S:G127A:G104C:A179E:T38S            -0.330429       0.000089
+
+=== 各 type 最佳 Finit/Finit_WT ===
+  [avGFP] best_mut=I152S:G104C:T97M:L220V, finit_rel=0.000×
+  [cgreGFP] best_mut=K163S:G130C:A8Q:P212H:L231A, finit_rel=0.000×
+  [ppluGFP] best_mut=E18S:G120L:S159P:V55K:L206E, finit_rel=0.000×
+
+=== Step 3b DONE (总耗时 371.1s) ===

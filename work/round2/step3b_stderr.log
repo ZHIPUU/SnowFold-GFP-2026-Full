@@ -1,0 +1,2 @@
+D:\生信\2026Protein Design\work\round2\step3b_embed_top10k.py:68: UserWarning: [18:25:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\c_api\c_api.cc:1500: Unknown file format: `model`. Using UBJSON (`ubj`) as a guess.
+  booster.load_model(str(ROOT / "step2_xgboost_gpu.model"))

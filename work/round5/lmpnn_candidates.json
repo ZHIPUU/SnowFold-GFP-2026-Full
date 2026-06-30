@@ -1,0 +1,30 @@
+[
+  {
+    "name": "R5_avGFP_lmpnn_T01_010",
+    "seq": "MSGGADLFTGKVPVKVRLEGDVNGHRFSIEGEGYGIAQEGYIELFYTCTTGELPVPWPTLVPTLILAFARFPDAIKENDFFRSAMPEGYTQRRVIDFEGDGSLRTESRVRFEGDTLVNTIRLVGTGFREDGPILGHKIKFEFGSHRVHIRANPANNGIDIDYTLDYPLEDGSVHKAHVTETATPLGSGPVKLPEDHYLLTESVLSRDPSEKRDHMLLKERIEADTEPTITHGMDELYK",
+    "scaffold": "avGFP_LMPNN",
+    "n_muts": 180,
+    "length": 238,
+    "lmpnn_overall_confidence": 0.4941,
+    "lmpnn_ligand_confidence": 0.4947,
+    "lmpnn_recovery": 0.5294,
+    "task": "avGFP_lmpnn_T01",
+    "expected_tm": 80,
+    "role": "lmpnn_de_novo",
+    "notes": "LigandMPNN avGFP_lmpnn_T01 oc=0.494 lc=0.495 rec=0.529"
+  },
+  {
+    "name": "R5_sfGFP_lmpnn_T03_010",
+    "seq": "MGKGAELLKGKVPLKVELKGDVNGKKFSIVGEGEGHAEEGRLDIFFVCTSGTLPVPWPTLVPILVLAFTRYPDHMLDHNFFQACLPEGYRQKRRLDFEDDGTLDYDAEVRFEGDTLVNRAELKGTGFKENGPVLGKQIEFTYGSHTVNLAPDPANNGITYTCTLELPLKDGSTQKMAVQGQYTPLGKGPENLPEPHNLLTSSVLSRDPNESRDHMLLRETVTASGIAHPTHGMDELYK",
+    "scaffold": "sfGFP_LMPNN",
+    "n_muts": 183,
+    "length": 238,
+    "lmpnn_overall_confidence": 0.4927,
+    "lmpnn_ligand_confidence": 0.4717,
+    "lmpnn_recovery": 0.5471,
+    "task": "sfGFP_lmpnn_T03",
+    "expected_tm": 80,
+    "role": "lmpnn_de_novo",
+    "notes": "LigandMPNN sfGFP_lmpnn_T03 oc=0.493 lc=0.472 rec=0.547"
+  }
+]

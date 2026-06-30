@@ -1,0 +1,128 @@
+[
+  {
+    "Seq_ID": 1,
+    "name": "C1_sfGFP_I152S",
+    "role": "safety_baseline",
+    "scaffold": "sfGFP",
+    "n_muts": 1,
+    "expected_tm": 80,
+    "plddt_mean": 48.24,
+    "plddt_chromo_region": 58.85,
+    "ptm": 0.5649,
+    "round4_score": 7.25,
+    "score_components": {
+      "plddt": 0.662,
+      "chromo": 0.824,
+      "ptm": 0.883,
+      "tm": 0.4,
+      "brightness": 1.0
+    },
+    "notes": "sfGFP + I152S chromophore 邻位优化, Round 3 验证, Tm~80°C, 1mut",
+    "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYSTADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK"
+  },
+  {
+    "Seq_ID": 2,
+    "name": "B3_sfGFP_acid5_S30R",
+    "role": "combined_balanced",
+    "scaffold": "sfGFP",
+    "n_muts": 5,
+    "expected_tm": 92,
+    "plddt_mean": 43.24,
+    "plddt_chromo_region": 45.29,
+    "ptm": 0.4964,
+    "round4_score": 7.05,
+    "score_components": {
+      "plddt": 0.412,
+      "chromo": 0.437,
+      "ptm": 0.655,
+      "tm": 0.88,
+      "brightness": 1.0
+    },
+    "notes": "sfGFP + sf:acid 5mut + S30R (+1.25 kcal/mol), 6mut",
+    "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVLCFARYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKVRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNMNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFITAAGITHGMDELYK"
+  },
+  {
+    "Seq_ID": 3,
+    "name": "C2_sfGFP_I152S_Q69L",
+    "role": "safety_baseline",
+    "scaffold": "sfGFP",
+    "n_muts": 2,
+    "expected_tm": 82,
+    "plddt_mean": 47.91,
+    "plddt_chromo_region": 50.74,
+    "ptm": 0.5673,
+    "round4_score": 6.94,
+    "score_components": {
+      "plddt": 0.645,
+      "chromo": 0.593,
+      "ptm": 0.891,
+      "tm": 0.48,
+      "brightness": 1.0
+    },
+    "notes": "sfGFP + I152S + Q69L (htFuncLib), 2mut",
+    "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVLCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYSTADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK"
+  },
+  {
+    "Seq_ID": 4,
+    "name": "D4_sfGFP_I152S_K166V",
+    "role": "exploration",
+    "scaffold": "sfGFP",
+    "n_muts": 2,
+    "expected_tm": 80,
+    "plddt_mean": 45.95,
+    "plddt_chromo_region": 54.65,
+    "ptm": 0.5176,
+    "round4_score": 6.62,
+    "score_components": {
+      "plddt": 0.548,
+      "chromo": 0.704,
+      "ptm": 0.725,
+      "tm": 0.4,
+      "brightness": 1.0
+    },
+    "notes": "sfGFP + I152S + K166V cgre-style hotspot, 2mut",
+    "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYSTADKQKNGIKANFVIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK"
+  },
+  {
+    "Seq_ID": 5,
+    "name": "B1_sfGFP_acid_subset",
+    "role": "combined_balanced",
+    "scaffold": "sfGFP",
+    "n_muts": 3,
+    "expected_tm": 85,
+    "plddt_mean": 43.71,
+    "plddt_chromo_region": 44.8,
+    "ptm": 0.4895,
+    "round4_score": 6.26,
+    "score_components": {
+      "plddt": 0.436,
+      "chromo": 0.423,
+      "ptm": 0.632,
+      "tm": 0.6,
+      "brightness": 1.0
+    },
+    "notes": "sfGFP + htFuncLib sf:acid 子集 (Q69L/S72A/T108V), Tm 可能 >85°C, 3mut",
+    "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVLCFARYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKVRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK"
+  },
+  {
+    "Seq_ID": 6,
+    "name": "M7_mBaoJin_K173R_Y196F",
+    "role": "thermostable_hero",
+    "scaffold": "mBaoJin",
+    "n_muts": 2,
+    "expected_tm": 92,
+    "plddt_mean": 38.99,
+    "plddt_chromo_region": 35.15,
+    "ptm": 0.3833,
+    "round4_score": 5.63,
+    "score_components": {
+      "plddt": 0.2,
+      "chromo": 0.147,
+      "ptm": 0.278,
+      "tm": 0.88,
+      "brightness": 1.0
+    },
+    "notes": "K173R + Y196F 双保守, 2mut",
+    "seq": "MVSKGEEENMASTPFKFQLKGTINGKSFTVEGEGEGNSHEGSHKGKYVCTSGKLPMSWAALGTTFGYGMKYYTKYPSGLKNWFREVMPGGFTYDRHIQYKGDGSIHAKHQHFMKNGTYHNIVEFTGQDFKENSPVLTGDMNVSLPNEVPQIPRDDGVECPVTLLYPLLSDKSRYVEAHQYTICKPLHNQPAPDVPFHWIRKQYTQSKDDAEERDHICQSETLEAHLKGMDELYK"
+  }
+]

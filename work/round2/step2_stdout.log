@@ -1,0 +1,78 @@
+[18:08:59] === Step 2: 训练 XGBoost GPU + 加性 Ridge baseline ===
+[18:08:59] 加载嵌入 + 元数据...
+[18:08:59]   embeddings shape=(141144, 1280), dtype=float32
+[18:08:59]   ids shape=(141144, 3), cols=['type', 'mutations', 'brightness']
+[18:08:59] 构建特征矩阵 X (嵌入 + type one-hot)...
+[18:08:59]   types=['amacGFP', 'avGFP', 'cgreGFP', 'ppluGFP'], type_oh shape=(141144, 4)
+[18:09:00]   X shape=(141144, 1284), y shape=(141144,), y range=[1.283,4.603]
+[18:09:00] 9:1 train/val split (stratified by type)...
+[18:09:00]   train=127031, val=14113
+[18:09:00]   X_train=(127031, 1284), X_val=(14113, 1284)
+[18:09:00] 
+--- Baseline: 加性 Ridge (per-parent) ---
+[18:09:02]   平均突变数/变体: 3.27
+[18:09:02]   amacGFP: train=30160, val=3351, 唯一突变数=1900
+[18:09:03]     Ridge val R²=-0.093, RMSE=0.470, MAE=0.364, rel_brightness=0.78×
+[18:09:03]   avGFP: train=46544, val=5171, 唯一突变数=1770
+[18:09:03]     Ridge val R²=-0.139, RMSE=1.131, MAE=1.044, rel_brightness=0.28×
+[18:09:03]   cgreGFP: train=22065, val=2451, 唯一突变数=2852
+[18:09:04]     Ridge val R²=-0.172, RMSE=0.831, MAE=0.755, rel_brightness=0.47×
+[18:09:04]   ppluGFP: train=28262, val=3140, 唯一突变数=2739
+[18:09:05]     Ridge val R²=-0.025, RMSE=0.524, MAE=0.420, rel_brightness=0.69×
+[18:09:05]   Baseline 总体 val: R²=0.222, RMSE=0.838, MAE=0.693
+[18:09:05]   保存 step2_baseline_ridge.json
+[18:09:05] 
+--- 主模型: XGBoost GPU (嵌入 + type one-hot) ---
+[18:09:06]   DMatrix 构建完成 (X_train=(127031, 1284), X_val=(14113, 1284))
+[0]	train-rmse:0.92466	train-mae:0.75149	val-rmse:0.93030	val-mae:0.75552
+[50]	train-rmse:0.63541	train-mae:0.52708	val-rmse:0.67795	val-mae:0.56170
+[100]	train-rmse:0.58746	train-mae:0.47240	val-rmse:0.66438	val-mae:0.53200
+[150]	train-rmse:0.56168	train-mae:0.44462	val-rmse:0.66083	val-mae:0.52181
+[200]	train-rmse:0.53800	train-mae:0.42289	val-rmse:0.65898	val-mae:0.51697
+[250]	train-rmse:0.51643	train-mae:0.40368	val-rmse:0.65784	val-mae:0.51399
+[300]	train-rmse:0.49617	train-mae:0.38621	val-rmse:0.65699	val-mae:0.51175
+[350]	train-rmse:0.47610	train-mae:0.36853	val-rmse:0.65631	val-mae:0.50936
+[400]	train-rmse:0.45821	train-mae:0.35270	val-rmse:0.65578	val-mae:0.50743
+[450]	train-rmse:0.44237	train-mae:0.33879	val-rmse:0.65594	val-mae:0.50628
+[500]	train-rmse:0.42720	train-mae:0.32532	val-rmse:0.65574	val-mae:0.50512
+[550]	train-rmse:0.41210	train-mae:0.31218	val-rmse:0.65564	val-mae:0.50402
+[600]	train-rmse:0.39856	train-mae:0.30020	val-rmse:0.65580	val-mae:0.50316
+[650]	train-rmse:0.38523	train-mae:0.28875	val-rmse:0.65584	val-mae:0.50228
+[700]	train-rmse:0.37286	train-mae:0.27784	val-rmse:0.65604	val-mae:0.50162
+[750]	train-rmse:0.36094	train-mae:0.26746	val-rmse:0.65617	val-mae:0.50108
+[800]	train-rmse:0.34962	train-mae:0.25763	val-rmse:0.65646	val-mae:0.50060
+[850]	train-rmse:0.33958	train-mae:0.24870	val-rmse:0.65636	val-mae:0.49982
+[900]	train-rmse:0.32944	train-mae:0.23978	val-rmse:0.65682	val-mae:0.49946
+[950]	train-rmse:0.31999	train-mae:0.23150	val-rmse:0.65684	val-mae:0.49891
+[1000]	train-rmse:0.31100	train-mae:0.22356	val-rmse:0.65691	val-mae:0.49854
+[1050]	train-rmse:0.30215	train-mae:0.21591	val-rmse:0.65721	val-mae:0.49828
+[1100]	train-rmse:0.29378	train-mae:0.20864	val-rmse:0.65771	val-mae:0.49825
+[1150]	train-rmse:0.28544	train-mae:0.20150	val-rmse:0.65783	val-mae:0.49792
+[1200]	train-rmse:0.27735	train-mae:0.19466	val-rmse:0.65808	val-mae:0.49757
+[1250]	train-rmse:0.26953	train-mae:0.18800	val-rmse:0.65834	val-mae:0.49724
+[1300]	train-rmse:0.26236	train-mae:0.18182	val-rmse:0.65863	val-mae:0.49696
+[1350]	train-rmse:0.25515	train-mae:0.17577	val-rmse:0.65889	val-mae:0.49682
+[1400]	train-rmse:0.24843	train-mae:0.17001	val-rmse:0.65908	val-mae:0.49662
+[1450]	train-rmse:0.24189	train-mae:0.16451	val-rmse:0.65924	val-mae:0.49632
+[1500]	train-rmse:0.23541	train-mae:0.15914	val-rmse:0.65952	val-mae:0.49616
+[1550]	train-rmse:0.22938	train-mae:0.15414	val-rmse:0.65969	val-mae:0.49600
+[1600]	train-rmse:0.22362	train-mae:0.14931	val-rmse:0.65991	val-mae:0.49582
+[1650]	train-rmse:0.21789	train-mae:0.14458	val-rmse:0.66004	val-mae:0.49566
+[1700]	train-rmse:0.21232	train-mae:0.14001	val-rmse:0.66014	val-mae:0.49551
+[1750]	train-rmse:0.20719	train-mae:0.13566	val-rmse:0.66046	val-mae:0.49548
+[1800]	train-rmse:0.20213	train-mae:0.13147	val-rmse:0.66062	val-mae:0.49540
+[1825]	train-rmse:0.19982	train-mae:0.12958	val-rmse:0.66076	val-mae:0.49550
+[18:10:29]   XGBoost 训练完成,耗时 84.4s, best_iter=1775
+[18:10:30]   XGBoost val: R²=0.517, RMSE=0.661, MAE=0.495
+[18:10:30]   Baseline val: R²=0.222, RMSE=0.838, MAE=0.693
+[18:10:30]   XGBoost 提升: ΔR²=+0.295, RMSE比=0.79
+[18:10:30]   [amacGFP] XGB R²=0.147 RMSE=0.415 | Ridge R²=-0.093 RMSE=0.470
+[18:10:30]   [avGFP] XGB R²=0.353 RMSE=0.853 | Ridge R²=-0.139 RMSE=1.131
+[18:10:30]   [cgreGFP] XGB R²=0.249 RMSE=0.665 | Ridge R²=-0.172 RMSE=0.831
+[18:10:30]   [ppluGFP] XGB R²=0.125 RMSE=0.484 | Ridge R²=-0.025 RMSE=0.524
+[18:10:30]   保存 step2_xgboost_gpu.json
+[18:10:30]   保存 step2_xgboost_gpu.model
+[18:10:30] 
+=== Step 2 DONE ===
+[18:10:30] XGBoost GPU 训练完成: val R²=0.517, RMSE=0.661, best_iter=1775
+[18:10:30] Baseline Ridge: val R²=0.222, RMSE=0.838

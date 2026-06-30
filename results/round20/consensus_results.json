@@ -1,0 +1,644 @@
+[
+  {
+    "ptm": 0.9277,
+    "plddt": 0.9328,
+    "chromo": 0.9606,
+    "score": 0.9391,
+    "passes": true,
+    "name": "T=0.2, sample=130, score=0.6062, global_score=0.6316, seq_re",
+    "seq": "MTIPGEALLKGVVPVKVNLDGDVNGEKFKVVGEGEGDAEKGKLVVTFTVTEGKLPLDPLFLSYLLTYPLSIFKKQPSDNPLRPFLLSCLPTGYVVERTYDFEGEGTLKVTSKVYFEGDTLVNEVTLKGSGFKAGSKLLTKKVASIRLVGDLTITPDPENKGVKVTYTLELTFTDGSTLKAKVTELIYPLGKGPETLPEPRTYNLDIDLTVTPTVNGNKFTYEHQDTPGVEPKPLSELSY",
+    "length": 239,
+    "parent": "T=0.2, sample=25, score=0.6229, global_score=0.6383, seq_recovery=0.8291",
+    "recycles": 8,
+    "origin": "R20",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.9142,
+        "plddt": 0.9185,
+        "chromo": 0.9435,
+        "score": 0.9243,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9278,
+        "plddt": 0.9328,
+        "chromo": 0.9606,
+        "score": 0.9391,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9276,
+        "plddt": 0.9328,
+        "chromo": 0.9603,
+        "score": 0.939,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9276,
+        "plddt": 0.9328,
+        "chromo": 0.9603,
+        "score": 0.9389,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9276,
+        "plddt": 0.9328,
+        "chromo": 0.9603,
+        "score": 0.939,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9375,
+    "best_r": 8,
+    "best_score": 0.9391,
+    "score_std": 0.0059
+  },
+  {
+    "ptm": 0.925,
+    "plddt": 0.9338,
+    "chromo": 0.9647,
+    "score": 0.9396,
+    "passes": true,
+    "name": "T=0.5, sample=230, score=0.6681, global_score=0.6918, seq_re",
+    "seq": "MTIPGEELLKGVVPVKVYLDGDVNGQKFKVVGEGEGDAEKGVLKVTFTVTEGKLPLDPLFLSYLLTYPLRIFLKQPVDDPLRPFLLECLPTGYVIERKLNFKGEGTLDVKSRVYFEGDTLVNDVELKGSGFKPGAKLLTKKVASIRLVGPLTIAPDKERNGVKVTYTLQLTFTDGSTLTADVDEVIYPLGEGPKKLPEASTYNLDIDLTVKPTVDGDKFTYEHKDTPGVTPPPLSSLSY",
+    "length": 239,
+    "parent": "T=0.2, sample=25, score=0.6229, global_score=0.6383, seq_recovery=0.8291",
+    "recycles": 8,
+    "origin": "R20",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8901,
+        "plddt": 0.888,
+        "chromo": 0.9326,
+        "score": 0.9022,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.925,
+        "plddt": 0.9338,
+        "chromo": 0.9647,
+        "score": 0.9396,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9249,
+        "plddt": 0.9336,
+        "chromo": 0.9649,
+        "score": 0.9395,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9248,
+        "plddt": 0.9336,
+        "chromo": 0.9649,
+        "score": 0.9395,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9248,
+        "plddt": 0.9336,
+        "chromo": 0.9649,
+        "score": 0.9395,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9358,
+    "best_r": 8,
+    "best_score": 0.9396,
+    "score_std": 0.0149
+  },
+  {
+    "ptm": 0.9279,
+    "plddt": 0.9317,
+    "chromo": 0.9614,
+    "score": 0.9391,
+    "passes": true,
+    "name": "T=0.1, sample=100, score=0.5817, global_score=0.6076, seq_re",
+    "seq": "MEIPGEKLLEGVVPVKVKLDGDVNGKKFKVEGEGEGDAEKGELVVTFTVTEGELPLDPLFLSYLLTYPLRIFLKQPEDDPLRPFLLECLPTGYVVERTYDFEGEGTLKVTSKVYFDGDTLVNEVTLKGSGFKEGSKLLTKEVASIRLVGDYVIEPDKENNGVKVTYTLVLTFTDGSTLTAKVTEKIYPLGKGPEKLPEPRTYNLDIDLTVTPTVDGNKFTYEHRDTPGVAPPKLSELSY",
+    "length": 239,
+    "parent": "T=0.2, sample=25, score=0.6229, global_score=0.6383, seq_recovery=0.8291",
+    "recycles": 8,
+    "origin": "R20",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8974,
+        "plddt": 0.8836,
+        "chromo": 0.9307,
+        "score": 0.9033,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9279,
+        "plddt": 0.9317,
+        "chromo": 0.9614,
+        "score": 0.9391,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9281,
+        "plddt": 0.9322,
+        "chromo": 0.9613,
+        "score": 0.9393,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9282,
+        "plddt": 0.9322,
+        "chromo": 0.9614,
+        "score": 0.9394,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9282,
+        "plddt": 0.9323,
+        "chromo": 0.9613,
+        "score": 0.9394,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9357,
+    "best_r": 16,
+    "best_score": 0.9394,
+    "score_std": 0.0144
+  },
+  {
+    "ptm": 0.9251,
+    "plddt": 0.9343,
+    "chromo": 0.9596,
+    "score": 0.9382,
+    "passes": true,
+    "name": "T=0.1, sample=74, score=0.6028, global_score=0.6278, seq_rec",
+    "seq": "MMIPGEELLKGVVPVKVNLDGDVNGKKFKVVGEGYGNAEKGELVITFEITEGELPLDPLLLSYLLTYPLRIFLKQPADDPLRPFLLACLPTGYKVEATYDFEGEGTLKVNSTVYFDGDTLVNEVTLKGSGFKEGAKVLTKKVASIRLVGDLTITPDEEKHGVNVTYTLELTFEDGSTVKAKVKELIYPLGKGPEELPAPATYNLDIDLTVKPEVEGNKFTFEHRDTPGVEPPRLSDLSY",
+    "length": 239,
+    "parent": "T=0.2, sample=70, score=0.6287, global_score=0.6441, seq_recovery=0.8419",
+    "recycles": 8,
+    "origin": "R20",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8919,
+        "plddt": 0.8881,
+        "chromo": 0.919,
+        "score": 0.8989,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9251,
+        "plddt": 0.9343,
+        "chromo": 0.9596,
+        "score": 0.9382,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9248,
+        "plddt": 0.9339,
+        "chromo": 0.9592,
+        "score": 0.9378,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9248,
+        "plddt": 0.9339,
+        "chromo": 0.9592,
+        "score": 0.9378,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9247,
+        "plddt": 0.9339,
+        "chromo": 0.9592,
+        "score": 0.9378,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.934,
+    "best_r": 8,
+    "best_score": 0.9382,
+    "score_std": 0.0156
+  },
+  {
+    "ptm": 0.926,
+    "plddt": 0.934,
+    "chromo": 0.9609,
+    "score": 0.9389,
+    "passes": true,
+    "name": "T=0.1, sample=228, score=0.6237, global_score=0.6478, seq_re",
+    "seq": "MMIPGEELLKGVVPVRIKLDGDVNGQKFSVEGEGEGDAEKGYLRVTFTVTSGTLPLDPLLLSYLLTYPLRVFLKQPADDPLRPFLLACLPTGYKEERTLDFEGEGTLKVTSKVYFEGDTLVNEVTLKGSGFAEGSKILTKKVASIRLVGDLVITPDEERHGVKVTYTLELTFEDGSTVTAKVDELIYPLGKGPETLPAAATYNLDLDLTVTPTVDGDKFTYEHQDTPGVEPPKLSDLSY",
+    "length": 239,
+    "parent": "T=0.2, sample=70, score=0.6287, global_score=0.6441, seq_recovery=0.8419",
+    "recycles": 8,
+    "origin": "R20",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.887,
+        "plddt": 0.8829,
+        "chromo": 0.898,
+        "score": 0.8891,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.926,
+        "plddt": 0.934,
+        "chromo": 0.9609,
+        "score": 0.9389,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9258,
+        "plddt": 0.9339,
+        "chromo": 0.9607,
+        "score": 0.9387,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9258,
+        "plddt": 0.9338,
+        "chromo": 0.9607,
+        "score": 0.9387,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9258,
+        "plddt": 0.9338,
+        "chromo": 0.9607,
+        "score": 0.9387,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9338,
+    "best_r": 8,
+    "best_score": 0.9389,
+    "score_std": 0.0199
+  },
+  {
+    "ptm": 0.9277,
+    "plddt": 0.9347,
+    "chromo": 0.9573,
+    "score": 0.9387,
+    "passes": true,
+    "name": "T=0.1, sample=176, score=0.5989, global_score=0.6239, seq_re",
+    "seq": "MMIPGEELLKGVVPVKVNLDGDVNGKKFKVKGEGEGNREKGYLKITFTVTEGELPLDPLLLSYLLTYPLRVFRKMPADDPLRPFLLACLPTGYVVERTLTFEGQGTLKVRSRVYFDGDTLVNEVELKGSGFAEGSKILTKKVASIRLVGDLTITPDEEKHGVRVTYTLLLTFEDGSTVTAKVEELIYPLGKGPEKLPEPATYNLDLDLTVKPTVNGNKFTYEYQDTPGVEPPLLSDLSY",
+    "length": 239,
+    "parent": "T=0.2, sample=70, score=0.6287, global_score=0.6441, seq_recovery=0.8419",
+    "recycles": 8,
+    "origin": "R20",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8582,
+        "plddt": 0.8444,
+        "chromo": 0.8698,
+        "score": 0.8575,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9277,
+        "plddt": 0.9347,
+        "chromo": 0.9573,
+        "score": 0.9387,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9273,
+        "plddt": 0.9347,
+        "chromo": 0.9567,
+        "score": 0.9384,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9273,
+        "plddt": 0.9347,
+        "chromo": 0.9567,
+        "score": 0.9383,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9273,
+        "plddt": 0.9347,
+        "chromo": 0.9567,
+        "score": 0.9384,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9303,
+    "best_r": 8,
+    "best_score": 0.9387,
+    "score_std": 0.0324
+  },
+  {
+    "ptm": 0.9142,
+    "plddt": 0.92,
+    "chromo": 0.94,
+    "score": 0.9252,
+    "passes": true,
+    "name": "T=0.3, sample=51, score=0.6813, global_score=0.6961, seq_recovery=0.7821",
+    "seq": "MTIPGEALLEGVVPVKVKLKGDVNGEKFEVEGEGTGDADTGTLKLDFTITKGKLPLDPLLLTYLLTYPLDIFRKWPADNPLRPFLLACLPEGYIIERELKFEGEGTLLVRSEVYFDGDTLVSEIELKGTGFKEGSLILTKKVASIRLVGPYKITPDKERNGVILEYTLLLTFEDGSTLEAKVRETIYPLGKGPEELPEARTYNLDIDLTVKPEVNGNKFKYEYTDTPGVEPPKLSELEK",
+    "length": 239,
+    "parent": "T=0.2, sample=16, score=0.5933, global_score=0.6092, seq_recovery=0.7991",
+    "origin": "R19",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8987,
+        "plddt": 0.8949,
+        "chromo": 0.9294,
+        "score": 0.9068,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9141,
+        "plddt": 0.9204,
+        "chromo": 0.9448,
+        "score": 0.9252,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9144,
+        "plddt": 0.9209,
+        "chromo": 0.9452,
+        "score": 0.9256,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9145,
+        "plddt": 0.921,
+        "chromo": 0.9453,
+        "score": 0.9257,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9145,
+        "plddt": 0.9211,
+        "chromo": 0.9454,
+        "score": 0.9257,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9237,
+    "best_r": 16,
+    "best_score": 0.9257,
+    "score_std": 0.0075
+  },
+  {
+    "ptm": 0.9199,
+    "plddt": 0.93,
+    "chromo": 0.95,
+    "score": 0.9321,
+    "passes": true,
+    "name": "T=0.2, sample=25, score=0.6229, global_score=0.6383, seq_recovery=0.8291",
+    "seq": "MKIPGEELLKGVVPVKVNLDGDVNGQKFKVVGEGEGDAEKGVLKVTFTVTEGELPLDPLLLTYILTYPLRIFKKMPKDDPLKPFLLSCLPSGYVIERELDFEGEGTLKVTSKVYFEGDTLVNEVTLKGSGFKEGSKLLTKKVASIRLVGDLTITPDKEKNGVKVTYTLELTFTDGSTLKAKVTELIYPLGEGPKELPEPRTYNLDIDLTVTPTVNGNKFTYEYKDEPGVEPKPLSELSY",
+    "length": 239,
+    "parent": "T=0.2, sample=33, score=0.6249, global_score=0.6401, seq_recovery=0.7821",
+    "origin": "R19",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8621,
+        "plddt": 0.8342,
+        "chromo": 0.8296,
+        "score": 0.844,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9199,
+        "plddt": 0.9271,
+        "chromo": 0.9534,
+        "score": 0.9321,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9189,
+        "plddt": 0.9269,
+        "chromo": 0.9505,
+        "score": 0.9308,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9192,
+        "plddt": 0.9277,
+        "chromo": 0.9506,
+        "score": 0.9312,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9193,
+        "plddt": 0.9279,
+        "chromo": 0.9506,
+        "score": 0.9313,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9226,
+    "best_r": 8,
+    "best_score": 0.9321,
+    "score_std": 0.0349
+  },
+  {
+    "ptm": 0.9146,
+    "plddt": 0.92,
+    "chromo": 0.94,
+    "score": 0.924,
+    "passes": true,
+    "name": "T=0.3, sample=51, score=0.6885, global_score=0.7028, seq_recovery=0.7991",
+    "seq": "MKIPGEELLDGVVPVKVKLKGDVNGEKFEVEGEGEGDAKQGKLKLTFTITKGKLPLDPLLLTYLLTYPLDIFRKMPSDNPLRPFLLACLPTGYIRERELVFEGEGTLLVRSEVYFDGDTLVSEVELKGSGFKEGSLILTKKVASIRLVGDLTIRPDPERRGVELTYTLRLTFEDGSTLEARVRELIYPLGEGPEELPPAAVYNLDLDLTVKPTINGNKFTYEYQDEPGVEPPPLSELSY",
+    "length": 239,
+    "parent": "T=0.2, sample=33, score=0.6249, global_score=0.6401, seq_recovery=0.7821",
+    "origin": "R19",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8955,
+        "plddt": 0.895,
+        "chromo": 0.9148,
+        "score": 0.9011,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9146,
+        "plddt": 0.9205,
+        "chromo": 0.9401,
+        "score": 0.924,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9142,
+        "plddt": 0.9204,
+        "chromo": 0.9396,
+        "score": 0.9237,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9142,
+        "plddt": 0.9204,
+        "chromo": 0.9396,
+        "score": 0.9237,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9142,
+        "plddt": 0.9204,
+        "chromo": 0.9396,
+        "score": 0.9237,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9215,
+    "best_r": 8,
+    "best_score": 0.924,
+    "score_std": 0.0091
+  },
+  {
+    "ptm": 0.918,
+    "plddt": 0.92,
+    "chromo": 0.95,
+    "score": 0.9277,
+    "passes": true,
+    "name": "T=0.2, sample=70, score=0.6291, global_score=0.6456, seq_recovery=0.8077",
+    "seq": "MEIPGEALLKGKVPVKVNLDGDVNGKKFKVKGEGYGDAEKGELKLTFTITEGELPLDPLLLTYILTYPLRIFRKMPEDDPLRPFLLACLPTGYKIERTLDFEGEGTLKVESETYFEGDTLVSNIKLKGSGFKEGSKLLTKKVASIRLVGNLTITPDKEKKGVKLNYTLLLTFEDGSTLTAKVEELIYPLGEGPAELPEARTYNLNIDLTVKPKVEGKKFTYEYKDEPGVEPPKLSDLEN",
+    "length": 239,
+    "parent": "T=0.15, sample=23, score=0.6248, global_score=0.6402, seq_recovery=0.7863",
+    "origin": "R19",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8701,
+        "plddt": 0.8451,
+        "chromo": 0.8928,
+        "score": 0.8694,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.918,
+        "plddt": 0.9199,
+        "chromo": 0.9486,
+        "score": 0.9278,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9176,
+        "plddt": 0.9191,
+        "chromo": 0.9472,
+        "score": 0.9269,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9175,
+        "plddt": 0.9192,
+        "chromo": 0.9463,
+        "score": 0.9267,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9174,
+        "plddt": 0.9192,
+        "chromo": 0.9461,
+        "score": 0.9265,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9211,
+    "best_r": 8,
+    "best_score": 0.9278,
+    "score_std": 0.023
+  },
+  {
+    "ptm": 0.9163,
+    "plddt": 0.92,
+    "chromo": 0.95,
+    "score": 0.9283,
+    "passes": true,
+    "name": "T=0.05, sample=96, score=0.6082, global_score=0.6237, seq_recovery=0.8504",
+    "seq": "MKIPGEELLKGVVPVKVNLDGDVNGKKFKVVGEGEGDAEKGYLKLTFTVTEGELPLDPLLLTYILTYPLRIFKKMPKDDPLRPFLLSCLPTGYVIERTLDFKGEGTLDVRSRVYFEGDTLVNEVTLKGSGFAEGAKLLTKEVASIRLVGDLVITPDEANKGVRLTYTLRLTFTDGSTLTADVDELIYPLGEGPETLPAAATYNLDIDLTVKPTVEGDKFTYEYQDPEGVEPPPLSELSY",
+    "length": 239,
+    "parent": "T=0.2, sample=33, score=0.6249, global_score=0.6401, seq_recovery=0.7821",
+    "origin": "R19",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.8687,
+        "plddt": 0.8426,
+        "chromo": 0.8167,
+        "score": 0.8453,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9163,
+        "plddt": 0.9232,
+        "chromo": 0.9495,
+        "score": 0.9283,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9163,
+        "plddt": 0.9236,
+        "chromo": 0.9492,
+        "score": 0.9283,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9163,
+        "plddt": 0.9236,
+        "chromo": 0.9492,
+        "score": 0.9284,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9163,
+        "plddt": 0.9236,
+        "chromo": 0.9492,
+        "score": 0.9284,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9201,
+    "best_r": 16,
+    "best_score": 0.9284,
+    "score_std": 0.0332
+  },
+  {
+    "ptm": 0.9203,
+    "plddt": 0.93,
+    "chromo": 0.95,
+    "score": 0.9318,
+    "passes": true,
+    "name": "T=0.2, sample=70, score=0.6287, global_score=0.6441, seq_recovery=0.8419",
+    "seq": "MKIPGEELLEGVVPVKVNLDGDVNGKKFKVKGEGEGDAEKGYLKLTFEITEGELPLDPLLLTYLLTYPLRIFRKMPSDDPLRPFLLACLPTGYKIESTLDFEGEGTLKVESTVYFEGDTLVNEVKLKGSGFAEGAKILTKKVASIRLVGNLTITPDEEKKGVKVTYTLLLTFEDGSTVTAKVDELIYPLGEGPAELPAPATYNLDLDLTVKPKVEGKKFTYEYQDEPGVEPPKLSDLSY",
+    "length": 239,
+    "parent": "T=0.2, sample=33, score=0.6249, global_score=0.6401, seq_recovery=0.7821",
+    "origin": "R19",
+    "per_recycles": {
+      "4": {
+        "ptm": 0.7938,
+        "plddt": 0.7609,
+        "chromo": 0.8236,
+        "score": 0.7929,
+        "passes": true
+      },
+      "8": {
+        "ptm": 0.9203,
+        "plddt": 0.9291,
+        "chromo": 0.9499,
+        "score": 0.9318,
+        "passes": true
+      },
+      "12": {
+        "ptm": 0.9197,
+        "plddt": 0.9292,
+        "chromo": 0.9505,
+        "score": 0.9318,
+        "passes": true
+      },
+      "16": {
+        "ptm": 0.9197,
+        "plddt": 0.9292,
+        "chromo": 0.9505,
+        "score": 0.9318,
+        "passes": true
+      },
+      "20": {
+        "ptm": 0.9197,
+        "plddt": 0.9292,
+        "chromo": 0.9505,
+        "score": 0.9318,
+        "passes": true
+      }
+    },
+    "consensus_score": 0.9179,
+    "best_r": 8,
+    "best_score": 0.9318,
+    "score_std": 0.0556
+  }
+]

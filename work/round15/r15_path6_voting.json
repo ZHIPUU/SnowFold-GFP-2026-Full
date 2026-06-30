@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "R14_B_R11p1_T03_135_t2_r12",
+    "path": "B",
+    "seq": "MMIPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFKKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPRTLYVNEVLTGKPEVKGNEAVFEYKDPPGVEPPPLEEL",
+    "length": 237,
+    "orig_score": 0.8841574521826017,
+    "avg_score": 0.8831365865665121,
+    "avg_plddt": 84.9094456505823,
+    "avg_chromo": 88.85765353776677,
+    "avg_ptm": 0.9045882225036621,
+    "best_recycles": 12,
+    "best_score": 0.8841574521826017,
+    "score_std": 0.0016602244024676175,
+    "scores_per_r": {
+      "4": {
+        "plddt": 84.6539659275722,
+        "chromo": 88.65082272836484,
+        "ptm": 0.9018540382385254,
+        "score": 0.8806559812632213
+      },
+      "6": {
+        "plddt": 85.00080430547276,
+        "chromo": 88.93572527732684,
+        "ptm": 0.9053007364273071,
+        "score": 0.8839298833193217
+      },
+      "8": {
+        "plddt": 84.97442617389963,
+        "chromo": 88.89955322353698,
+        "ptm": 0.9054527282714844,
+        "score": 0.8838030295009036
+      },
+      "12": {
+        "plddt": 85.00858619538461,
+        "chromo": 88.94451292183838,
+        "ptm": 0.9057453870773315,
+        "score": 0.8841574521826017
+      }
+    }
+  },
+  {
+    "name": "R14_A_T02_037",
+    "path": "A",
+    "seq": "MTIPGETLLAGVVPVRVNLDGDVNGKKFKVVGEGEGDATKGELRLTFEVTEGELPLDPLLLSYILTYPLSIFRKMPKDNPLRPFYLACLPEGYVIERTLDFKGEGTLNVTSETYFDGDTLVSNITLKGTGFKEGGKLLTKKVKEIRLVGDLTITPDEEKKGVKLTYTLELTFEDGSTSTADVKELIYPKGKGPETLPEPQTLTVDLTLTAVPEVEGDRFRFEHRDPPGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8838021658260253,
+    "avg_score": 0.8809504900292366,
+    "avg_plddt": 85.07170088149998,
+    "avg_chromo": 88.47170577441459,
+    "avg_ptm": 0.9008006751537323,
+    "best_recycles": 12,
+    "best_score": 0.8854943266414548,
+    "score_std": 0.005846893240285415,
+    "scores_per_r": {
+      "4": {
+        "plddt": 84.33184619047631,
+        "chromo": 87.4328146357901,
+        "ptm": 0.8933820128440857,
+        "score": 0.8726467876164334
+      },
+      "6": {
+        "plddt": 85.05734596157319,
+        "chromo": 88.5026015728927,
+        "ptm": 0.901085376739502,
+        "score": 0.8811139932991985
+      },
+      "8": {
+        "plddt": 85.39952610137732,
+        "chromo": 88.92277718416022,
+        "ptm": 0.9039498567581177,
+        "score": 0.8845468525598598
+      },
+      "12": {
+        "plddt": 85.49808527257308,
+        "chromo": 89.02862970481532,
+        "ptm": 0.9047854542732239,
+        "score": 0.8854943266414548
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_013",
+    "path": "A",
+    "seq": "MTIPGETLLSGKVPVKVNLDGDVNGEKFKVEGEGTGDATKGELKLEFKVTEGELPLDWLLLSYILTYPLSIFKKMPADHPLKPFYLCCLPEGYIIERTLDFEGEGTLKVTSKTYFDGDTLVSEITLKGTDFKEGGKLLTKEIKEIVEEGELTITPDEEKHGVKRTYTLKLTFKDGSTLTAKVDELIYPNGKGPEKLPEAQKWTINVVYKAKPKVEGDKAKVEWKDPEGVTPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8919595471868073,
+    "avg_score": 0.8770990675702106,
+    "avg_plddt": 83.69969509177292,
+    "avg_chromo": 89.29874537304195,
+    "avg_ptm": 0.895259365439415,
+    "best_recycles": 12,
+    "best_score": 0.8860540249435774,
+    "score_std": 0.01467894457462949,
+    "scores_per_r": {
+      "4": {
+        "plddt": 81.18145278293326,
+        "chromo": 87.34846975923789,
+        "ptm": 0.8741998076438904,
+        "score": 0.8552696906840696
+      },
+      "6": {
+        "plddt": 84.22626689091946,
+        "chromo": 89.71012296470214,
+        "ptm": 0.8996992111206055,
+        "score": 0.8816888540151071
+      },
+      "8": {
+        "plddt": 84.65786062978991,
+        "chromo": 90.03627989357513,
+        "ptm": 0.9032531976699829,
+        "score": 0.8853837006380882
+      },
+      "12": {
+        "plddt": 84.73320006344905,
+        "chromo": 90.10010887465263,
+        "ptm": 0.9038852453231812,
+        "score": 0.8860540249435774
+      }
+    }
+  },
+  {
+    "name": "R14_B_R11p1_T02_090_t2_r6",
+    "path": "B",
+    "seq": "MKIPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFRKLPKDNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPTTLLVKEVLTDKPEKKGDEVKVEIKDKPGAEPPPEAEK",
+    "length": 237,
+    "orig_score": 0.876273177749294,
+    "avg_score": 0.8757347161101874,
+    "avg_plddt": 85.31002576935319,
+    "avg_chromo": 86.43297757675808,
+    "avg_ptm": 0.9012642651796341,
+    "best_recycles": 6,
+    "best_score": 0.876273177749294,
+    "score_std": 0.00041067358812501095,
+    "scores_per_r": {
+      "4": {
+        "plddt": 85.25016273195061,
+        "chromo": 86.48757517320595,
+        "ptm": 0.9007460474967957,
+        "score": 0.8755116327141879
+      },
+      "6": {
+        "plddt": 85.42976943907759,
+        "chromo": 86.40569237823266,
+        "ptm": 0.9019169807434082,
+        "score": 0.876273177749294
+      },
+      "8": {
+        "plddt": 85.28474949305843,
+        "chromo": 86.33569456158261,
+        "ptm": 0.9011858105659485,
+        "score": 0.8753356563903025
+      },
+      "12": {
+        "plddt": 85.27542141332614,
+        "chromo": 86.50294819401111,
+        "ptm": 0.901208221912384,
+        "score": 0.8758183975869653
+      }
+    }
+  },
+  {
+    "name": "R14_B_R11p1_T02_090_t3_r6",
+    "path": "B",
+    "seq": "MKIPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFRKLPKDNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPTTLLVKEVLTDKPEKKGDEVKVEIKDKPGAEPPPEAE",
+    "length": 236,
+    "orig_score": 0.8794452821206202,
+    "avg_score": 0.8756716407670218,
+    "avg_plddt": 85.04145590215283,
+    "avg_chromo": 86.59758047954344,
+    "avg_ptm": 0.9018863290548325,
+    "best_recycles": 6,
+    "best_score": 0.8794452821206202,
+    "score_std": 0.005077172533902539,
+    "scores_per_r": {
+      "4": {
+        "plddt": 83.78513159324467,
+        "chromo": 86.1147354390198,
+        "ptm": 0.8961963653564453,
+        "score": 0.8681781472393715
+      },
+      "6": {
+        "plddt": 85.5751842315401,
+        "chromo": 86.92571735464648,
+        "ptm": 0.9048564434051514,
+        "score": 0.8794452821206202
+      },
+      "8": {
+        "plddt": 85.42808112346626,
+        "chromo": 86.65387636655335,
+        "ptm": 0.9034739136695862,
+        "score": 0.8776354379378933
+      },
+      "12": {
+        "plddt": 85.37742666036031,
+        "chromo": 86.69599275795413,
+        "ptm": 0.903018593788147,
+        "score": 0.8774276957702021
+      }
+    }
+  },
+  {
+    "name": "R14_B_R11p1_T03_135_t3_r8",
+    "path": "B",
+    "seq": "MMIPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFKKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPRTLYVNEVLTGKPEVKGNEAVFEYKDPPGVEPPPLEE",
+    "length": 236,
+    "orig_score": 0.8825255438482676,
+    "avg_score": 0.8750479727001408,
+    "avg_plddt": 83.74954920783502,
+    "avg_chromo": 88.38090732624003,
+    "avg_ptm": 0.8966415077447891,
+    "best_recycles": 8,
+    "best_score": 0.8825255438482676,
+    "score_std": 0.009446621422180708,
+    "scores_per_r": {
+      "4": {
+        "plddt": 82.03237734864659,
+        "chromo": 87.43536202787149,
+        "ptm": 0.882199227809906,
+        "score": 0.8612829092535166
+      },
+      "6": {
+        "plddt": 84.01219182352557,
+        "chromo": 88.52986996693355,
+        "ptm": 0.8985861539840698,
+        "score": 0.8770606469650053
+      },
+      "8": {
+        "plddt": 84.65218215972891,
+        "chromo": 89.05363559255008,
+        "ptm": 0.9035202264785767,
+        "score": 0.8825255438482676
+      },
+      "12": {
+        "plddt": 84.30144549943901,
+        "chromo": 88.50476171760504,
+        "ptm": 0.902260422706604,
+        "score": 0.8793227907337737
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_020",
+    "path": "A",
+    "seq": "MTIPGDTLLAGVVPVKVKLDGDVNGEKFKVEGEGEGDATTGRLKLKFEVTEGELPLDPLLLTYILTYPLRIFRKMPADDPLKPFLKACLPEGYVVERTLDFEGEGTLKVKSKTYFDGDTLVSEIELKGTDFKEGGLLLTKKVKEIRVTGELTISPDEEKHGVNLTYTLVLTFEDGSTATAKVKELIYPIGKGPETLPAPQTLNVDFVFEAKPKVEGNKFEFEWEDPPGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8807880750887804,
+    "avg_score": 0.8730976243845754,
+    "avg_plddt": 85.40611799519914,
+    "avg_chromo": 86.22134259156506,
+    "avg_ptm": 0.8955381065607071,
+    "best_recycles": 12,
+    "best_score": 0.8737203853189943,
+    "score_std": 0.000657225311524129,
+    "scores_per_r": {
+      "4": {
+        "plddt": 85.14859401033091,
+        "chromo": 86.14872058026202,
+        "ptm": 0.8972160816192627,
+        "score": 0.8727783764194839
+      },
+      "6": {
+        "plddt": 85.34703278457758,
+        "chromo": 86.13609136496099,
+        "ptm": 0.8947001099586487,
+        "score": 0.8723294164320752
+      },
+      "8": {
+        "plddt": 85.5358271716687,
+        "chromo": 86.30379392505552,
+        "ptm": 0.8951086401939392,
+        "score": 0.8735623193677482
+      },
+      "12": {
+        "plddt": 85.59301801421938,
+        "chromo": 86.2967644959817,
+        "ptm": 0.8951275944709778,
+        "score": 0.8737203853189943
+      }
+    }
+  },
+  {
+    "name": "R14_B_R11p1_T01_005_t3_r12",
+    "path": "B",
+    "seq": "MTLPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFKKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYKGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPTTLYVDEVYEGKPEKEGDKVVVEIVDPPGVAPPPAAE",
+    "length": 236,
+    "orig_score": 0.8731373100114923,
+    "avg_score": 0.8718316810065123,
+    "avg_plddt": 84.97150592474028,
+    "avg_chromo": 85.7272108724795,
+    "avg_ptm": 0.8993388265371323,
+    "best_recycles": 12,
+    "best_score": 0.8731373100114923,
+    "score_std": 0.0014905486512658223,
+    "scores_per_r": {
+      "4": {
+        "plddt": 85.1788495699168,
+        "chromo": 85.86906087195548,
+        "ptm": 0.8996385335922241,
+        "score": 0.8729991447625065
+      },
+      "6": {
+        "plddt": 84.75443014190195,
+        "chromo": 85.4776667321055,
+        "ptm": 0.8984487056732178,
+        "score": 0.8700757728913093
+      },
+      "8": {
+        "plddt": 84.87344249269394,
+        "chromo": 85.62948374122081,
+        "ptm": 0.8990142941474915,
+        "score": 0.8711144963607409
+      },
+      "12": {
+        "plddt": 85.07930149444844,
+        "chromo": 85.93263214463623,
+        "ptm": 0.9002537727355957,
+        "score": 0.8731373100114923
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_001",
+    "path": "A",
+    "seq": "MMIPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFKKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPRTLYVNEVLTGKPEVKGNEAVFEYKDPPGVEPPPLEELLK",
+    "length": 239,
+    "orig_score": 0.8730070616151809,
+    "avg_score": 0.8707722123999586,
+    "avg_plddt": 83.0340002548805,
+    "avg_chromo": 88.24348293486096,
+    "avg_ptm": 0.8923494070768356,
+    "best_recycles": 12,
+    "best_score": 0.8733696810560166,
+    "score_std": 0.004156169498624149,
+    "scores_per_r": {
+      "4": {
+        "plddt": 82.23919332257913,
+        "chromo": 87.9737075893738,
+        "ptm": 0.8848719596862793,
+        "score": 0.8645874866103705
+      },
+      "6": {
+        "plddt": 83.15609889930397,
+        "chromo": 88.39833806245703,
+        "ptm": 0.8936532735824585,
+        "score": 0.8721246203182664
+      },
+      "8": {
+        "plddt": 83.3355653202533,
+        "chromo": 88.28772907780017,
+        "ptm": 0.8953429460525513,
+        "score": 0.8730070616151809
+      },
+      "12": {
+        "plddt": 83.4051434773856,
+        "chromo": 88.31415700981283,
+        "ptm": 0.8955294489860535,
+        "score": 0.8733696810560166
+      }
+    }
+  },
+  {
+    "name": "R14_D_T02_033",
+    "path": "D",
+    "seq": "MTIPGEELLSGVVPVKVNLDGDVNGQKFKVKGEGTGDATTGKLSLEFEVTEGTLPLDPLLLSYILTYPLSIFRKMPEDDPLRPFLLACLPEGYVREITLDFEGEGTLKVKSETHFEGDTLVSNITLKGTDFKEGGKLLTKKIKSIRLVGKRTITPDEERHGVNLTYTLELTWEDGSTSTAKVKELIYPIGEGPEELPEPQEITIDEVFKAKPEVNGNKFKYEYQDEPGVTPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8695153498032246,
+    "avg_score": 0.8689764423911319,
+    "avg_plddt": 85.33933993301439,
+    "avg_chromo": 84.93813186579453,
+    "avg_ptm": 0.895360067486763,
+    "best_recycles": 12,
+    "best_score": 0.870753730814395,
+    "score_std": 0.0014863973392746205,
+    "scores_per_r": {
+      "4": {
+        "plddt": 85.19548744684822,
+        "chromo": 84.9037708321003,
+        "ptm": 0.8925557136535645,
+        "score": 0.8673200602982714
+      },
+      "6": {
+        "plddt": 85.40638546941277,
+        "chromo": 84.55551276268898,
+        "ptm": 0.8960773348808289,
+        "score": 0.8683166286486368
+      },
+      "8": {
+        "plddt": 85.37801832822005,
+        "chromo": 84.95079822402668,
+        "ptm": 0.8963222503662109,
+        "score": 0.8695153498032246
+      },
+      "12": {
+        "plddt": 85.37746848757651,
+        "chromo": 85.34244564436214,
+        "ptm": 0.8964849710464478,
+        "score": 0.870753730814395
+      }
+    }
+  },
+  {
+    "name": "R14_C_R11p1_T03_135_t1",
+    "path": "C",
+    "seq": "MMIPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFKKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPRTLYVNEVLTGKPEVKGNEAVFEYKDPPGVEPPPLEELL",
+    "length": 238,
+    "orig_score": 0.8705509771796318,
+    "avg_score": 0.8669064604667315,
+    "avg_plddt": 82.46016639882035,
+    "avg_chromo": 87.97505438007833,
+    "avg_ptm": 0.8890019953250885,
+    "best_recycles": 8,
+    "best_score": 0.8705509771796318,
+    "score_std": 0.005628616930213896,
+    "scores_per_r": {
+      "4": {
+        "plddt": 81.45851876182074,
+        "chromo": 87.65747194496585,
+        "ptm": 0.8779264688491821,
+        "score": 0.8585185596600327
+      },
+      "6": {
+        "plddt": 82.68501890778452,
+        "chromo": 88.20075076985326,
+        "ptm": 0.8908566832542419,
+        "score": 0.8689999823346102
+      },
+      "8": {
+        "plddt": 82.91254944447981,
+        "chromo": 88.13725570304396,
+        "ptm": 0.8935039043426514,
+        "score": 0.8705509771796318
+      },
+      "12": {
+        "plddt": 82.78457848119633,
+        "chromo": 87.90473910245028,
+        "ptm": 0.8937209248542786,
+        "score": 0.8695563226926513
+      }
+    }
+  },
+  {
+    "name": "R14_D_T02_039",
+    "path": "D",
+    "seq": "MTIPGETLLNGVVPVKVNLDGDVNGEKFKVTGEGEGDATKGELKLDFEVTEGKLPLDPLLLSFILTYPLRIFRKMPADDPLKPFYLACLPEGYVVETTLDFENEGTLKVTSKTYFEGDTLVSDITLKGTDFKKGGKLLTKKVKEIRLTGDLTVTPDEAKKGVKLTYTLVLTFEDGSTSTAKVEQLIYPNGKGPETLPAAQTLTIDWVFTAKPKVEGNKFHYEYKDPEGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8737719751074569,
+    "avg_score": 0.8621691474346317,
+    "avg_plddt": 84.17093692229932,
+    "avg_chromo": 84.8560084113139,
+    "avg_ptm": 0.8877207785844803,
+    "best_recycles": 4,
+    "best_score": 0.8662081628793876,
+    "score_std": 0.0028049005123221733,
+    "scores_per_r": {
+      "4": {
+        "plddt": 84.47949759807459,
+        "chromo": 85.46090748444263,
+        "ptm": 0.8909673690795898,
+        "score": 0.8662081628793876
+      },
+      "6": {
+        "plddt": 84.05647683893791,
+        "chromo": 84.96816098211819,
+        "ptm": 0.8869321942329407,
+        "score": 0.8618467911563445
+      },
+      "8": {
+        "plddt": 84.05979762434181,
+        "chromo": 84.63889735718655,
+        "ptm": 0.8864690065383911,
+        "score": 0.8606836875599415
+      },
+      "12": {
+        "plddt": 84.08797562784295,
+        "chromo": 84.35606782150818,
+        "ptm": 0.8865145444869995,
+        "score": 0.8599379481428532
+      }
+    }
+  },
+  {
+    "name": "R14_B_R11p1_T02_095_t2_r12",
+    "path": "B",
+    "seq": "MKLPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFRKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYEGNVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPRTLYVHEVLTGKPEKKGDEVVVEIVDPPGVEPPPLEEL",
+    "length": 237,
+    "orig_score": 0.8726521397878566,
+    "avg_score": 0.8618190407344039,
+    "avg_plddt": 82.7782685228162,
+    "avg_chromo": 86.14199213135294,
+    "avg_ptm": 0.8876456469297409,
+    "best_recycles": 12,
+    "best_score": 0.8726521397878566,
+    "score_std": 0.009781801860721284,
+    "scores_per_r": {
+      "4": {
+        "plddt": 81.7744265132579,
+        "chromo": 84.31971744465794,
+        "ptm": 0.877614438533783,
+        "score": 0.8493282072872608
+      },
+      "6": {
+        "plddt": 82.55911729852465,
+        "chromo": 86.02029087127201,
+        "ptm": 0.886074423789978,
+        "score": 0.8601679940253812
+      },
+      "8": {
+        "plddt": 82.97819268358218,
+        "chromo": 86.69805424898047,
+        "ptm": 0.8902477025985718,
+        "score": 0.8651278218371167
+      },
+      "12": {
+        "plddt": 83.80133759590007,
+        "chromo": 87.52990596050135,
+        "ptm": 0.8966460227966309,
+        "score": 0.8726521397878566
+      }
+    }
+  },
+  {
+    "name": "R14_D_T01_002",
+    "path": "D",
+    "seq": "MTIPGETLLSGVVPVKVKLDGDVNGKKFKVEGEGTGDATKGKLKVKFEVTEGELPLDPLLLSFILTYPLSIFRKMPKDNPLKPFLLCCLPEGYKREITLDFKDEGTLKVTSKTYFDGDTLVSEITLKGTDFKEGGLLLTKKVKEIKVEGELTIEPDKENHGVKLTYTLKLTFEDGSTSTADVKELIYPIGKGPEKLPEPQTLKVNIVFTAKPKVEGNKFDFEYQDTPGVEPKPLSELSK",
+    "length": 239,
+    "orig_score": 0.8845814928307665,
+    "avg_score": 0.8591480134179202,
+    "avg_plddt": 83.19365705155816,
+    "avg_chromo": 85.38931080761755,
+    "avg_ptm": 0.8834977746009827,
+    "best_recycles": 12,
+    "best_score": 0.8647570885503819,
+    "score_std": 0.004226400610201719,
+    "scores_per_r": {
+      "4": {
+        "plddt": 82.65105003884317,
+        "chromo": 85.61851631814096,
+        "ptm": 0.8815929889678955,
+        "score": 0.8574458946581106
+      },
+      "6": {
+        "plddt": 82.6808248248064,
+        "chromo": 84.71229190798893,
+        "ptm": 0.8815181255340576,
+        "score": 0.854786600412009
+      },
+      "8": {
+        "plddt": 83.50144073079679,
+        "chromo": 85.1858932142822,
+        "ptm": 0.883851170539856,
+        "score": 0.8596024700511794
+      },
+      "12": {
+        "plddt": 83.94131261178632,
+        "chromo": 86.0405417900581,
+        "ptm": 0.8870288133621216,
+        "score": 0.8647570885503819
+      }
+    }
+  },
+  {
+    "name": "R14_D_T03_074",
+    "path": "D",
+    "seq": "MTIPGETLLSGVVPVKVNLDGDVNGKKFKVKGEGEGDATKGYLKLTFEVTEGELPLDWLLLSFILTYPLSIFRKMPADNPLRPFMLCCLPGGYVREVTLDFEGEGTLRVRARTHFEGDTLVSDIELKGSGFKEGGKLLTKKIESIRVVGNLTITPDEEKHGVKLTYTLELTFEDGSTSTAKVEELLYPLGQGPETLPAAQTVTVDFVFKAKPEVEGNKAKYEYRDPEGIEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8845256835199042,
+    "avg_score": 0.8500403338743708,
+    "avg_plddt": 82.98267866721254,
+    "avg_chromo": 82.73064528598758,
+    "avg_ptm": 0.8822509050369263,
+    "best_recycles": 12,
+    "best_score": 0.8784193856545879,
+    "score_std": 0.04110901318917717,
+    "scores_per_r": {
+      "4": {
+        "plddt": 78.3477874146206,
+        "chromo": 72.2807210847929,
+        "ptm": 0.8439716100692749,
+        "score": 0.7894741695259504
+      },
+      "6": {
+        "plddt": 83.62592171011661,
+        "chromo": 84.6535527723348,
+        "ptm": 0.8876044750213623,
+        "score": 0.8598802134558992
+      },
+      "8": {
+        "plddt": 84.77115109700061,
+        "chromo": 86.5174235378337,
+        "ptm": 0.8963046073913574,
+        "score": 0.8723875668610458
+      },
+      "12": {
+        "plddt": 85.18585444711232,
+        "chromo": 87.47088374898891,
+        "ptm": 0.9011229276657104,
+        "score": 0.8784193856545879
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_023",
+    "path": "A",
+    "seq": "MTIPGETLLSGVVPVKVNLDGDVNGNKFKVKGEGEGDATKGYLKLKFEVTEGELPLDPLLLTFILTYPLSIFRKMPADHPLRPFLLACLPEGYVVERTFDFEGEGTLKVRSDTYFDGDTLVSDITLKGTDFKEGGKLLTKKVESIKLKGELTITPDEAKHGVKLTYTLELTFTDGSTSTAKVEELIYPIGKGPATLPAAQTWTIDFTFTSKPKVEGNKFEYEYQDTPGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8791266227200669,
+    "avg_score": 0.8481594397983255,
+    "avg_plddt": 82.77650277290348,
+    "avg_chromo": 82.3367421567182,
+    "avg_ptm": 0.8820492625236511,
+    "best_recycles": 12,
+    "best_score": 0.8684067116524775,
+    "score_std": 0.0209846023208059,
+    "scores_per_r": {
+      "4": {
+        "plddt": 80.50076957705447,
+        "chromo": 77.15795609995745,
+        "ptm": 0.8664895296096802,
+        "score": 0.8195719888749078
+      },
+      "6": {
+        "plddt": 82.4037095513001,
+        "chromo": 82.45360436597772,
+        "ptm": 0.880805492401123,
+        "score": 0.8468941387122828
+      },
+      "8": {
+        "plddt": 83.57006794037027,
+        "chromo": 84.00523854045124,
+        "ptm": 0.8875975012779236,
+        "score": 0.8577649199536339
+      },
+      "12": {
+        "plddt": 84.63146402288909,
+        "chromo": 85.73016962048638,
+        "ptm": 0.8933045268058777,
+        "score": 0.8684067116524775
+      }
+    }
+  },
+  {
+    "name": "R14_D_T01_008",
+    "path": "D",
+    "seq": "MTIPGEELLSGVVPVKVNLDGDVNGEKFKVKGEGEGDATTGKLVLEFKVTEGKLPLDWLLLTYILTYPLRIFRKMPKDDPLKPFLLACLPEGYIVERTLDFEDEGTLKVRSRTYFEGDTLVSEIELKGTDFKEGGKLLTKKIKSITLEGELTISPDEKNHGVKLTYTLKLTFEDGSTLTAKVDELIYPNGKGPEKLPEAQTLTINVTFTAKPEVDGDKAKFEYQDTPGVEPPLLSELSK",
+    "length": 239,
+    "orig_score": 0.8877793360074138,
+    "avg_score": 0.8471699330398852,
+    "avg_plddt": 81.74987597151792,
+    "avg_chromo": 83.96897264070498,
+    "avg_ptm": 0.8750334680080414,
+    "best_recycles": 4,
+    "best_score": 0.8535383064447318,
+    "score_std": 0.0043493983679084875,
+    "scores_per_r": {
+      "4": {
+        "plddt": 82.01061339095497,
+        "chromo": 85.43825161536189,
+        "ptm": 0.8779792785644531,
+        "score": 0.8535383064447318
+      },
+      "6": {
+        "plddt": 81.5281072631951,
+        "chromo": 83.46312509511974,
+        "ptm": 0.873649001121521,
+        "score": 0.8444332975235529
+      },
+      "8": {
+        "plddt": 81.8241363144674,
+        "chromo": 83.65052928841992,
+        "ptm": 0.8748940229415894,
+        "score": 0.8463816059852977
+      },
+      "12": {
+        "plddt": 81.63664691745423,
+        "chromo": 83.32398456391836,
+        "ptm": 0.873611569404602,
+        "score": 0.8443265222059586
+      }
+    }
+  },
+  {
+    "name": "R14_D_T01_005",
+    "path": "D",
+    "seq": "MTIPGETLLSGVVPVKVNLDGDVNGNKFKVKGEGTGDATKGELKLEFEVTEGKLPLDPLLLSYILTYPLSIFKKMPKDDPLKPFYLACLPEGYVREVTLDFKDEGTLNVTSRTYFDGDTLVSDITLKGTGFKEGGKLLTKKVESITLKGKLTISPDEKNHGVKRTYTLELTFTDGSTSTADVKELIYPIGKGPKELPKAQELTINIVIEAKPEVEGNKFKYEWKDPEGVEPKPLSELSK",
+    "length": 239,
+    "orig_score": 0.8792524777012991,
+    "avg_score": 0.8364890641944056,
+    "avg_plddt": 81.57948968519993,
+    "avg_chromo": 82.15791091863899,
+    "avg_ptm": 0.863192155957222,
+    "best_recycles": 6,
+    "best_score": 0.8776943229129541,
+    "score_std": 0.07345984963237681,
+    "scores_per_r": {
+      "4": {
+        "plddt": 70.07374669163644,
+        "chromo": 71.02399084578344,
+        "ptm": 0.7577977776527405,
+        "score": 0.7264123236733558
+      },
+      "6": {
+        "plddt": 85.75605038314085,
+        "chromo": 86.50745343625289,
+        "ptm": 0.9022595286369324,
+        "score": 0.8776943229129541
+      },
+      "8": {
+        "plddt": 85.27567386410352,
+        "chromo": 85.81142726089016,
+        "ptm": 0.897034227848053,
+        "score": 0.8720749945142023
+      },
+      "12": {
+        "plddt": 85.21248780191893,
+        "chromo": 85.28877213162949,
+        "ptm": 0.8956770896911621,
+        "score": 0.86977461567711
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_006",
+    "path": "A",
+    "seq": "MTIPGETLLSGVVPVKVKLDGDVNGNKFKVEGEGTGDATKGELKLTFEVTEGELPLDWLLLTYILTYPLSIFRKMPEDNPLKPFLKACLPEGYKVERTLDFEGEGTLKVTSLTHFDGDTLVSEITLKGTDFKEGGKLLTKEVKEIRLKGELKISPDEENHGVKLTYTLELTFTDGSTLTAKVKELISPIGKGPEKLPEAQTLTLDIVFESKPKVEGNKFVFEYQDPPGVKPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8665671973400348,
+    "avg_score": 0.8343370729023719,
+    "avg_plddt": 81.79399076651909,
+    "avg_chromo": 80.75180326134267,
+    "avg_ptm": 0.8667492270469666,
+    "best_recycles": 12,
+    "best_score": 0.8637071276022231,
+    "score_std": 0.05767092190390415,
+    "scores_per_r": {
+      "4": {
+        "plddt": 73.32807544220738,
+        "chromo": 70.36592401061395,
+        "ptm": 0.7918844223022461,
+        "score": 0.7478357672793625
+      },
+      "6": {
+        "plddt": 84.3658237326201,
+        "chromo": 84.11872859145656,
+        "ptm": 0.8921021223068237,
+        "score": 0.8622945058949595
+      },
+      "8": {
+        "plddt": 84.67371543985573,
+        "chromo": 84.25422297886439,
+        "ptm": 0.8918176889419556,
+        "score": 0.8635108908329425
+      },
+      "12": {
+        "plddt": 84.80834845139313,
+        "chromo": 84.26833746443579,
+        "ptm": 0.8911926746368408,
+        "score": 0.8637071276022231
+      }
+    }
+  },
+  {
+    "name": "R14_D_T01_016",
+    "path": "D",
+    "seq": "MTIPGETLLSGVVPVKVKLDGDVNGEKFKVEGEGEGDATKGKLVLEFKVTEGKLPLDPLLLSFILTYPLRIFRKMPADHPLRPFLLACLPEGYVVERTLDFEDEGTLNVKSRTYFDGDTLVSEITLKGTDFKEGGKLLTKEVESIRLVGELTISPDEEKHGVRLTYTLVLTFTDGSTSTAKVEELIYPIGKGPEELPAPQTWTVDIVETAKPEVDGDKFKYEYQDPEGVEPPPLSELSA",
+    "length": 239,
+    "orig_score": 0.8745378271909907,
+    "avg_score": 0.8305199937882439,
+    "avg_plddt": 81.2245156262714,
+    "avg_chromo": 80.12844917440484,
+    "avg_ptm": 0.866152748465538,
+    "best_recycles": 8,
+    "best_score": 0.8352699457484382,
+    "score_std": 0.0064739375164712355,
+    "scores_per_r": {
+      "4": {
+        "plddt": 80.5530236951769,
+        "chromo": 78.77306569637503,
+        "ptm": 0.8581260442733765,
+        "score": 0.8212286858840064
+      },
+      "6": {
+        "plddt": 81.09367604514237,
+        "chromo": 80.63289979876895,
+        "ptm": 0.8645089268684387,
+        "score": 0.8309832982791094
+      },
+      "8": {
+        "plddt": 81.63963078840041,
+        "chromo": 80.65347549196274,
+        "ptm": 0.8709765672683716,
+        "score": 0.8352699457484382
+      },
+      "12": {
+        "plddt": 81.61173197636593,
+        "chromo": 80.45435571051263,
+        "ptm": 0.8709994554519653,
+        "score": 0.8345980452414218
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_025",
+    "path": "A",
+    "seq": "MTIPGEELLSGVVPVKVNLDGDVNGEKFKVKGEGEGDATTGKLVLKFKVTEGKLPLDWLLLSYILTYPLRIFRKMPADDPLRPFLLACLPEGYKVERTLDFKDEGTLKVTSETHFEGDTLVSDITLKGTDFKEGGKLLTQKVESIRLVGELTVSPDEEKHGVKLTYTLELTFTDGSTSTADVKELISPIGKGPAELPAAQTLRLDVVFTAKPKVDGDEALFEYQDPPGVEPPPLSVLSA",
+    "length": 239,
+    "orig_score": 0.8734289052069057,
+    "avg_score": 0.828813779017708,
+    "avg_plddt": 81.10023751591862,
+    "avg_chromo": 80.4830210802703,
+    "avg_ptm": 0.8601600080728531,
+    "best_recycles": 12,
+    "best_score": 0.8743094026904328,
+    "score_std": 0.08243661282285776,
+    "scores_per_r": {
+      "4": {
+        "plddt": 68.97105923510273,
+        "chromo": 67.04683396200424,
+        "ptm": 0.7430377006530762,
+        "score": 0.7052687598525514
+      },
+      "6": {
+        "plddt": 84.52650254252275,
+        "chromo": 84.81287090747387,
+        "ptm": 0.89445561170578,
+        "score": 0.8658003650323018
+      },
+      "8": {
+        "plddt": 85.21382990649751,
+        "chromo": 84.72185387109093,
+        "ptm": 0.9001738429069519,
+        "score": 0.869876588495546
+      },
+      "12": {
+        "plddt": 85.68955837955153,
+        "chromo": 85.35052558051217,
+        "ptm": 0.9029728770256042,
+        "score": 0.8743094026904328
+      }
+    }
+  },
+  {
+    "name": "R14_D_T05_096",
+    "path": "D",
+    "seq": "MTIPGEELLAGVVPVKVNLDGDVNGNKFKVDGEGTGDAQKGKLKLKFKITEGELPLDPLLLTFILTYPLSIFKKMPEDDPLRPFLLACLPEGYKIEATFNFKDEGTLKLVSHTKFEGDTMVSEIELKGSDFKEGGKLLTKEIKEIRAVGDLTISPDEEEHGVKLTFTLRLTFKDGSTSDADVEMLIKPIGKGPAELPEAMTRKIDFTFKSKPKVNGNEFEYEYQDTPGVKPKPLSELSK",
+    "length": 239,
+    "orig_score": 0.8753085663265558,
+    "avg_score": 0.8208653366430838,
+    "avg_plddt": 81.0524062507366,
+    "avg_chromo": 77.30197268344278,
+    "avg_ptm": 0.8645054996013641,
+    "best_recycles": 12,
+    "best_score": 0.828414576233349,
+    "score_std": 0.012381508759332922,
+    "scores_per_r": {
+      "4": {
+        "plddt": 79.41881492505253,
+        "chromo": 74.54209046467041,
+        "ptm": 0.8512693047523499,
+        "score": 0.8023904380701088
+      },
+      "6": {
+        "plddt": 81.45271878170085,
+        "chromo": 77.99531756424456,
+        "ptm": 0.8675187230110168,
+        "score": 0.825351598242243
+      },
+      "8": {
+        "plddt": 81.61609242004482,
+        "chromo": 78.28460108769403,
+        "ptm": 0.8690066337585449,
+        "score": 0.8273047340266346
+      },
+      "12": {
+        "plddt": 81.7219988761482,
+        "chromo": 78.38588161716213,
+        "ptm": 0.8702273368835449,
+        "score": 0.828414576233349
+      }
+    }
+  },
+  {
+    "name": "R14_D_T01_022",
+    "path": "D",
+    "seq": "MTIPGETLLSGVVPVKVKLDGDVNGEKFKVEGEGEGDATTGRLRLTFEVTEGKLPLDWLLMTYILTYPLRIFRKMPADHPLRPFLLACLPEGYKVERTLDFKDEGTLKVTSKTYFDGDTLVSEITLKGTDFKEGGKLLTKKIKEIRLTGELTIAPDEENHGVKLTYTLVLTFEDGSTLTADVKELISPIGKGPEELPAPQTWTIDEVLEAVPKVDGNKAEYEWEDPPGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8764116129547685,
+    "avg_score": 0.7974910985565022,
+    "avg_plddt": 77.92118427014601,
+    "avg_chromo": 78.77694368623897,
+    "avg_ptm": 0.8184917867183685,
+    "best_recycles": 12,
+    "best_score": 0.8839566452559025,
+    "score_std": 0.15761450755352088,
+    "scores_per_r": {
+      "4": {
+        "plddt": 55.973726999217355,
+        "chromo": 54.50784394455506,
+        "ptm": 0.5747998952865601,
+        "score": 0.5613646709459412
+      },
+      "6": {
+        "plddt": 84.21928816464859,
+        "chromo": 85.39481700110058,
+        "ptm": 0.8913930058479309,
+        "score": 0.8653995178364198
+      },
+      "8": {
+        "plddt": 85.52351906581745,
+        "chromo": 87.24872010025973,
+        "ptm": 0.9023171067237854,
+        "score": 0.8792435601877457
+      },
+      "12": {
+        "plddt": 85.96820285090064,
+        "chromo": 87.95639369904049,
+        "ptm": 0.9054571390151978,
+        "score": 0.8839566452559025
+      }
+    }
+  },
+  {
+    "name": "R14_D_T03_072",
+    "path": "D",
+    "seq": "MTIPGEKLLSGVVPVKVKLDGDVNGEKFKVEGEGTGDATKGKLKLKFEITEGKLPLDWLLLSYILTYPLRVFRKMPADDPLRPFLLACLPEGYLREVTLDFAGEGTLTVRSRTYFEGDTLVSEIELKGTGFKEGGKLLTKKVKSIKLTGTLTVTPDKEKHGVNLTYTLTLTWEDGSTSTADVKELISPIGKGPDTLPEPRTLTINLTYSAKPKVDGNKFEYEWEDPEGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8696826185985629,
+    "avg_score": 0.7933238021323923,
+    "avg_plddt": 77.77345734900808,
+    "avg_chromo": 74.91154486503436,
+    "avg_ptm": 0.8381719887256622,
+    "best_recycles": 12,
+    "best_score": 0.8433527451647638,
+    "score_std": 0.062348675842471696,
+    "scores_per_r": {
+      "4": {
+        "plddt": 69.3224260342695,
+        "chromo": 66.17562564007648,
+        "ptm": 0.7414292097091675,
+        "score": 0.7030658389067049
+      },
+      "6": {
+        "plddt": 79.14240892390897,
+        "chromo": 74.42881945325182,
+        "ptm": 0.8565943837165833,
+        "score": 0.8033514386181156
+      },
+      "8": {
+        "plddt": 80.35073140483891,
+        "chromo": 78.08547804090712,
+        "ptm": 0.8705413937568665,
+        "score": 0.8235251858399847
+      },
+      "12": {
+        "plddt": 82.27826303301498,
+        "chromo": 80.95625632590203,
+        "ptm": 0.8841229677200317,
+        "score": 0.8433527451647638
+      }
+    }
+  },
+  {
+    "name": "R14_A_T03_071",
+    "path": "A",
+    "seq": "MTLPGEELLSGVVPVKVTLDGDVNGNKFKIKGEGTGDATRGELKLEFEVTEGTLPLDWLFMTYILTYPLRIFRKLPADDPLRPFLLACLPEGYRVERKLTFKDEGTLYVKSDTHFDGDTLVSEITLKGTDFKEGGKLLTKTIKEIRLKGELTVTPDPERHGVRLTYTLELTFEDGSKLEADVEELISPIGTGPDELPAPQTLTVDIVFEAKPEVNGNKAKFEWRDPEGVEPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8871126036075895,
+    "avg_score": 0.7645930648567102,
+    "avg_plddt": 76.73981363332128,
+    "avg_chromo": 70.99812852988856,
+    "avg_ptm": 0.8034480959177017,
+    "best_recycles": 12,
+    "best_score": 0.8689809989681492,
+    "score_std": 0.18612847666304097,
+    "scores_per_r": {
+      "4": {
+        "plddt": 55.81010106391263,
+        "chromo": 32.381861767349136,
+        "ptm": 0.5537111759185791,
+        "score": 0.48606035886121696
+      },
+      "6": {
+        "plddt": 81.73226997094363,
+        "chromo": 81.86972331697979,
+        "ptm": 0.8719969987869263,
+        "score": 0.8396047793785408
+      },
+      "8": {
+        "plddt": 84.50352873871714,
+        "chromo": 84.31544013966042,
+        "ptm": 0.8931730389595032,
+        "score": 0.863726122218934
+      },
+      "12": {
+        "plddt": 84.91335475971171,
+        "chromo": 85.42548889556488,
+        "ptm": 0.8949111700057983,
+        "score": 0.8689809989681492
+      }
+    }
+  },
+  {
+    "name": "R14_D_T05_088",
+    "path": "D",
+    "seq": "MVIPGEELLAGVVPVEVKLEGNVNGQKFSVSGRGEGDRTRGKLRLDFVVTSGVLPLDWLLLTFILTYPLFIFKRLPEDNPLKPFYLACLPDGFVIEQVLDFKDEGTLLVRSRTYFEGDTLVSEITLNGTNFKEGGKLLTKKVEKIRIVGELTISPDEERHGVKLTFQLELTFEDGSTSVADVRQLVYPIGRGPEQLPKPRTWTVDIEVESKPVVEGDRFRFEHEDPPGVKPPPLSELSK",
+    "length": 239,
+    "orig_score": 0.8810916912446722,
+    "avg_score": 0.7043214987792695,
+    "avg_plddt": 72.90409651802713,
+    "avg_chromo": 55.62463392337507,
+    "avg_ptm": 0.7968382686376572,
+    "best_recycles": 12,
+    "best_score": 0.7890145249379387,
+    "score_std": 0.06980883414508518,
+    "scores_per_r": {
+      "4": {
+        "plddt": 64.15060236012562,
+        "chromo": 48.75230082502268,
+        "ptm": 0.7010313272476196,
+        "score": 0.6191212404544928
+      },
+      "6": {
+        "plddt": 74.65027252633764,
+        "chromo": 54.21400801643493,
+        "ptm": 0.8191746473312378,
+        "score": 0.7142627005608129
+      },
+      "8": {
+        "plddt": 74.02264760485916,
+        "chromo": 48.93336155438664,
+        "ptm": 0.8150487542152405,
+        "score": 0.6948875291638337
+      },
+      "12": {
+        "plddt": 78.7928635807861,
+        "chromo": 70.59886529765603,
+        "ptm": 0.8520983457565308,
+        "score": 0.7890145249379387
+      }
+    }
+  },
+  {
+    "name": "R14_A_T01_007",
+    "path": "A",
+    "seq": "MTIPGETLLAGVVPVKVNLDGDVNGNKFKVEGEGEGDATKGKLKLKFKVTEGELPLDPLLLTYILTYPLSIFRKMPADHPLRPFLLACLPEGYKVERTLDFKDEGTLKVTSETYFDGDTLVSDITLKGTDFKEGGKLLTKEIASIRLTGELTVAPDEENHGVKLTYTLELTFTDGSTLTADVKELISPIGKGPETLPAPQTLTLDIVFEAKPKVDGNEFEYEYQDPEGVEPPPLAELSK",
+    "length": 239,
+    "orig_score": 0.8665643999240029,
+    "avg_score": 0.6602647156474444,
+    "avg_plddt": 67.88679438839908,
+    "avg_chromo": 64.10876040837121,
+    "avg_ptm": 0.6606951281428337,
+    "best_recycles": 12,
+    "best_score": 0.8796653200097404,
+    "score_std": 0.2350722844684101,
+    "scores_per_r": {
+      "4": {
+        "plddt": 48.571914590631295,
+        "chromo": 46.85581191091827,
+        "ptm": 0.4049167335033417,
+        "score": 0.44824987290598534
+      },
+      "6": {
+        "plddt": 54.21285376618755,
+        "chromo": 40.57468782620341,
+        "ptm": 0.4540032744407654,
+        "score": 0.46596393455347906
+      },
+      "8": {
+        "plddt": 82.84532342515183,
+        "chromo": 82.13598231195888,
+        "ptm": 0.8805895447731018,
+        "score": 0.8471797351205729
+      },
+      "12": {
+        "plddt": 85.91708577162566,
+        "chromo": 86.86855958440431,
+        "ptm": 0.903270959854126,
+        "score": 0.8796653200097404
+      }
+    }
+  },
+  {
+    "name": "R14_C_R11p1_T01_005_t1",
+    "path": "C",
+    "seq": "MTLPGDELLSGVVPVKVNLDGDVNGNKFKIKGEGTGDATKGELKLTFKVTEGELPLDWVLIVDILTYGLRIFKKLPADNPLRDFYKACLPEGYKIERTLKFKDEGTLTVTSDVRFEGDTLVSDIELKGTDFKEGGLLLGKTVATLTYKGKVEVSPDEEKHGVKLTYTLTLTFTDGSTATADVEELISPIGKGPETLPEPTTLYVDEVYEGKPEKEGDKVVVEIVDPPGVAPPPAAELA",
+    "length": 238,
+    "orig_score": 0.8689870399477317,
+    "avg_score": 0.6479761102512667,
+    "avg_plddt": 65.20790358203382,
+    "avg_chromo": 61.96290382974248,
+    "avg_ptm": 0.6661592200398445,
+    "best_recycles": 8,
+    "best_score": 0.8689870399477317,
+    "score_std": 0.24465189823563618,
+    "scores_per_r": {
+      "4": {
+        "plddt": 44.25945651902405,
+        "chromo": 35.344090142188136,
+        "ptm": 0.37197932600975037,
+        "score": 0.38760237038753664
+      },
+      "6": {
+        "plddt": 51.02925102351565,
+        "chromo": 42.80562334817554,
+        "ptm": 0.5246845483779907,
+        "score": 0.4913784424662698
+      },
+      "8": {
+        "plddt": 84.0261122056124,
+        "chromo": 86.3503489506709,
+        "ptm": 0.8946441411972046,
+        "score": 0.8689870399477317
+      },
+      "12": {
+        "plddt": 81.51679457998316,
+        "chromo": 83.35155287793533,
+        "ptm": 0.8733288645744324,
+        "score": 0.8439365882035283
+      }
+    }
+  },
+  {
+    "name": "R14_D_T02_037",
+    "path": "D",
+    "seq": "MTIPGETLLNGVVPVKVNLDGDVNGQKFKVKGEGEGDATKGELKLDFEVTEGKLPLDWLLLSFILTYPLSIFKKMPEDNPLKPFYLACLPEGYVIERTLKFKDEGTLNVKSNTYFDGDTLVSEITLKGTDFKEGGKLLTKKVKSITLTGKLTVEPDEEKHGVKLTYTLTLTFTDGSTLTADVDELIYPNGKGPEKLPEPQTLTINIVITSVPKVDGNKFHYEHKDTPGVKPKPLSELSK",
+    "length": 239,
+    "orig_score": 0.8883288126316604,
+    "avg_score": 0.5878235104959292,
+    "avg_plddt": 61.26834996988735,
+    "avg_chromo": 53.47477557745158,
+    "avg_ptm": 0.6089853346347809,
+    "best_recycles": 12,
+    "best_score": 0.8555221774698605,
+    "score_std": 0.2226511425380491,
+    "scores_per_r": {
+      "4": {
+        "plddt": 45.75254986151787,
+        "chromo": 40.83027832669784,
+        "ptm": 0.3834502696990967,
+        "score": 0.4131285924442858
+      },
+      "6": {
+        "plddt": 44.158591087118964,
+        "chromo": 37.88722904530094,
+        "ptm": 0.374750554561615,
+        "score": 0.39603768222190566
+      },
+      "8": {
+        "plddt": 72.50239295382065,
+        "chromo": 50.39983126267383,
+        "ptm": 0.7947472929954529,
+        "score": 0.6866055898476646
+      },
+      "12": {
+        "plddt": 82.65986597709193,
+        "chromo": 84.78176367513373,
+        "ptm": 0.882993221282959,
+        "score": 0.8555221774698605
+      }
+    }
+  },
+  {
+    "name": "R14_A_T03_068",
+    "path": "A",
+    "seq": "MTIPGETLLSGVVPVKVNLDGDVNGNKFKVKGEGTGDATKGELKLTFEVTEGELPIDWLLLSFILTYPLSIFRKMPEDNPLRPFYLACLPEGYVLEQTLKFKDEGTLKVRSKTYFEGDTLVSEIELKGTDFKDGGKLLTKEVKSIRLKGDLTITPDEERHGVKLKYTLELTFTDGSTLTADVDELIYPLGKGPETLPAAQTLNVDITYESKPEVNGNKFVFEHKDEPGVKPKPLSELSK",
+    "length": 239,
+    "orig_score": 0.8780091987935028,
+    "avg_score": 0.5349404172339107,
+    "avg_plddt": 53.34024805510502,
+    "avg_chromo": 54.63544602634931,
+    "avg_ptm": 0.5275333374738693,
+    "best_recycles": 4,
+    "best_score": 0.5421928799422253,
+    "score_std": 0.006469615955319703,
+    "scores_per_r": {
+      "4": {
+        "plddt": 53.73605268966519,
+        "chromo": 55.67996842795809,
+        "ptm": 0.5348620414733887,
+        "score": 0.5421928799422253
+      },
+      "6": {
+        "plddt": 53.46305529688569,
+        "chromo": 54.08988661883025,
+        "ptm": 0.5167296528816223,
+        "score": 0.5293506868997967
+      },
+      "8": {
+        "plddt": 52.91426897637242,
+        "chromo": 53.97391226852439,
+        "ptm": 0.5223832130432129,
+        "score": 0.5296178289519755
+      },
+      "12": {
+        "plddt": 53.247615257496776,
+        "chromo": 54.7980167900845,
+        "ptm": 0.5361584424972534,
+        "score": 0.5386002731416453
+      }
+    }
+  }
+]

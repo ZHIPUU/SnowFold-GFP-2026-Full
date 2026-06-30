@@ -1,0 +1,54 @@
+{
+  "overall": {
+    "train_rmse": 0.2046618014574051,
+    "val_rmse": 0.6605076193809509,
+    "train_mae": 0.1335630565881729,
+    "val_mae": 0.4953857362270355,
+    "val_r2": 0.5166229611056796,
+    "best_iter": 1775,
+    "train_seconds": 84.38515090942383
+  },
+  "per_type": {
+    "amacGFP": {
+      "n_val": 3351,
+      "val_rmse": 0.4152963161468506,
+      "val_mae": 0.31147611141204834,
+      "val_r2": 0.14720628404842728,
+      "val_rel_brightness": 0.7787460684776306
+    },
+    "avGFP": {
+      "n_val": 5171,
+      "val_rmse": 0.852655827999115,
+      "val_mae": 0.6728308796882629,
+      "val_r2": 0.35271336468385384,
+      "val_rel_brightness": 0.517055332660675
+    },
+    "cgreGFP": {
+      "n_val": 2451,
+      "val_rmse": 0.6654995083808899,
+      "val_mae": 0.5483819246292114,
+      "val_r2": 0.24936415077377727,
+      "val_rel_brightness": 0.5564433336257935
+    },
+    "ppluGFP": {
+      "n_val": 3140,
+      "val_rmse": 0.4835442900657654,
+      "val_mae": 0.3580667972564697,
+      "val_r2": 0.1253825471675477,
+      "val_rel_brightness": 0.7663486003875732
+    }
+  },
+  "params": {
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "device": "cuda",
+    "max_depth": 8,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.7,
+    "min_child_weight": 5,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "verbosity": 1
+  }
+}

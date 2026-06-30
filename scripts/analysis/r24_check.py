@@ -1,0 +1,15 @@
+import json
+data = json.load(open("/root/autodl-tmp/r24/results/progress.json"))
+print(f"Total passed: {len(data)}")
+data.sort(key=lambda x: x["score"], reverse=True)
+print("\n=== R24 Top 10 ===")
+for i, c in enumerate(data[:10]):
+    print(f"  {i+1}. parent={c['parent']:8s} score={c['score']:.4f} pTM={c['ptm']:.4f} pLDDT={c['plddt']:.3f} chromo={c['chromo']:.3f}")
+print(f"\nR24 Top 1 so far: {data[0]['score']:.4f} (parent={data[0]['parent']})")
+print(f"R22 Top 1 reference: 0.9430")
+print(f"Delta vs R22: {data[0]['score'] - 0.9430:+.4f}")
+print()
+print(f"Max chromo seen: {max(c['chromo'] for c in data):.3f}")
+print(f"Max pTM seen: {max(c['ptm'] for c in data):.4f}")
+print(f"Max pLDDT seen: {max(c['plddt'] for c in data):.4f}")
+print(f"Avg Top 100 score: {sum(c['score'] for c in data[:100])/min(100,len(data)):.4f}")

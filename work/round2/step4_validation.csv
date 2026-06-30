@@ -1,0 +1,12 @@
+id,name,scaffold,length,n_muts,mutations,chromophore_found,sfGFP_classical_muts,tgp_stability_muts,tgp_surface_muts,in_exclusion_partial,design_score
+6,avGFP+sfGFP完整+TGP_全面增强,avGFP,238,19,30S>R;39Y>N;45K>E;53L>S;59T>P;60L>A;65S>T;73R>E;82D>A;99F>S;105N>T;117D>E;145Y>F;149N>E;153M>T;158K>E;163V>A;171I>V;206A>V,65:TYG,10,2,1,False,130
+4,amacGFP+sfGFP风格+TGP稳定,amacGFP,238,10,53L>S;59T>P;60L>A;65S>T;82D>A;99F>S;153M>T;166K>T;171I>V;206A>V,65:TYG,5,1,0,False,125
+3,avGFP+sfGFP完整+TGP稳定,avGFP,238,14,30S>R;39Y>N;53L>S;59T>P;60L>A;65S>T;82D>A;99F>S;105N>T;145Y>F;153M>T;163V>A;171I>V;206A>V,65:TYG,10,2,0,False,125
+7,avGFP+sfGFP_5核心+TGP稳定,avGFP,238,8,53L>S;59T>P;60L>A;65S>T;82D>A;99F>S;153M>T;163V>A,38:TYG;65:TYG,4,1,0,False,100
+2,sfGFP+TGP_稳定核心,sfGFP,238,4,53L>S;59T>P;60L>A;82D>A,65:TYG,0,1,0,False,100
+9,cgreGFP+S65T+K163A,cgreGFP,235,2,65S>T;163K>A,68:SYG,1,0,0,False,90
+12,ppluGFP+L199H,ppluGFP,222,1,199E>H,57:GYG,0,0,0,False,85
+8,cgreGFP_原始,cgreGFP,235,0,,68:SYG,0,0,0,False,80
+5,ppluGFP_原始,ppluGFP,222,0,,57:GYG,0,0,0,False,80
+11,avGFP+sfGFP_5核心+I152S,avGFP,238,5,65S>T;99F>S;152I>S;153M>T;163V>A,38:TYG;65:TYG,5,0,0,False,75
+1,sfGFP_完整,sfGFP,238,0,,65:TYG,0,0,0,False,70

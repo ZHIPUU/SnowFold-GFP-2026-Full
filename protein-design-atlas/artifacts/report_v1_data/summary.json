@@ -1,0 +1,20 @@
+{
+  "sequences": 242795,
+  "metrics": 813876,
+  "rounds": 25,
+  "best": {
+    "source_round": "R25",
+    "best_score": 0.9477,
+    "best_ptm": 0.9321,
+    "best_plddt": 0.9465,
+    "best_chromo": 0.9696
+  },
+  "exports": {
+    "rounds": 18,
+    "seq_scores": 7445,
+    "top_candidates": 80,
+    "metrics_top": 1000,
+    "hamming_top40": 1600,
+    "parent_contrib": 23
+  }
+}

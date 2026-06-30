@@ -1,0 +1,142 @@
+{
+  "estimates": [
+    {
+      "Seq_ID": 1,
+      "name": "C1_sfGFP_I152S",
+      "scaffold": "sfGFP",
+      "expected_tm": 80,
+      "plddt_mean": 48.24,
+      "finit_relative": 0.997,
+      "thermal_retention": 0.7,
+      "combined_score": 0.698,
+      "pass_threshold": true,
+      "details": {
+        "scaffold_base": 1.0,
+        "mut_factor": 1.05,
+        "fold_prob": 0.95,
+        "chromo_factor": 1.0,
+        "delta_Tm_T": 8
+      }
+    },
+    {
+      "Seq_ID": 2,
+      "name": "B3_sfGFP_acid5_S30R",
+      "scaffold": "sfGFP",
+      "expected_tm": 92,
+      "plddt_mean": 43.24,
+      "finit_relative": 0.935,
+      "thermal_retention": 0.98,
+      "combined_score": 0.916,
+      "pass_threshold": true,
+      "details": {
+        "scaffold_base": 1.0,
+        "mut_factor": 1.1,
+        "fold_prob": 0.85,
+        "chromo_factor": 1.0,
+        "delta_Tm_T": 20
+      }
+    },
+    {
+      "Seq_ID": 3,
+      "name": "X4_avGFP_sfGFP_I152S_Q69L",
+      "scaffold": "avGFP",
+      "expected_tm": 90,
+      "plddt_mean": 49.78,
+      "finit_relative": 1.481,
+      "thermal_retention": 0.92,
+      "combined_score": 1.363,
+      "pass_threshold": true,
+      "details": {
+        "scaffold_base": 0.9,
+        "mut_factor": 1.73,
+        "fold_prob": 0.95,
+        "chromo_factor": 1.0,
+        "delta_Tm_T": 18
+      }
+    },
+    {
+      "Seq_ID": 4,
+      "name": "Z3_amacGFP_sfGFP5_I152S",
+      "scaffold": "amacGFP",
+      "expected_tm": 80,
+      "plddt_mean": 45.46,
+      "finit_relative": 1.272,
+      "thermal_retention": 0.7,
+      "combined_score": 0.89,
+      "pass_threshold": true,
+      "details": {
+        "scaffold_base": 0.85,
+        "mut_factor": 1.58,
+        "fold_prob": 0.95,
+        "chromo_factor": 1.0,
+        "delta_Tm_T": 8
+      }
+    },
+    {
+      "Seq_ID": 5,
+      "name": "X2_avGFP_sfGFP_I152S",
+      "scaffold": "avGFP",
+      "expected_tm": 82,
+      "plddt_mean": 46.61,
+      "finit_relative": 1.347,
+      "thermal_retention": 0.85,
+      "combined_score": 1.145,
+      "pass_threshold": true,
+      "details": {
+        "scaffold_base": 0.9,
+        "mut_factor": 1.58,
+        "fold_prob": 0.95,
+        "chromo_factor": 1.0,
+        "delta_Tm_T": 10
+      }
+    },
+    {
+      "Seq_ID": 6,
+      "name": "M7_mBaoJin_K173R_Y196F",
+      "scaffold": "mBaoJin",
+      "expected_tm": 92,
+      "plddt_mean": 38.99,
+      "finit_relative": 0.688,
+      "thermal_retention": 0.98,
+      "combined_score": 0.674,
+      "pass_threshold": true,
+      "details": {
+        "scaffold_base": 1.2,
+        "mut_factor": 0.98,
+        "fold_prob": 0.65,
+        "chromo_factor": 0.9,
+        "delta_Tm_T": 20
+      }
+    }
+  ],
+  "best_top1": {
+    "Seq_ID": 3,
+    "name": "X4_avGFP_sfGFP_I152S_Q69L",
+    "scaffold": "avGFP",
+    "expected_tm": 90,
+    "plddt_mean": 49.78,
+    "finit_relative": 1.481,
+    "thermal_retention": 0.92,
+    "combined_score": 1.363,
+    "pass_threshold": true,
+    "details": {
+      "scaffold_base": 0.9,
+      "mut_factor": 1.73,
+      "fold_prob": 0.95,
+      "chromo_factor": 1.0,
+      "delta_Tm_T": 18
+    }
+  },
+  "scenarios": {
+    "pessimistic_top1": 0.753,
+    "neutral_top1": 1.363,
+    "optimistic_top1": 2.099
+  },
+  "assumptions": {
+    "sfGFP_WT_baseline": 1.0,
+    "sfGFP_WT_Tm": 86.1,
+    "test_temperature": 72,
+    "heat_time_min": 30,
+    "fold_prob_from_plddt": "45+ → 0.95; 40-45 → 0.85; 35-40 → 0.65; <35 → 0.30"
+  }
+}

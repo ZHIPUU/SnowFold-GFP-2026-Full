@@ -1,0 +1,2 @@
+D:\生信\2026Protein Design\work\round2\stepC_epistasis.py:256: UserWarning: [19:15:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\c_api\c_api.cc:1564: Saving model in the UBJSON format as default.  You can use a file extension: `json` or `ubj` to choose between formats.
+  booster.save_model(str(ROOT / "stepC_xgboost_epistasis.model"))
